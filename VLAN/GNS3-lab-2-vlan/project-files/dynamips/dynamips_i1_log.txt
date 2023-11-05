@@ -1,0 +1,55 @@
+Nov 05 09:41:37.671 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 05 09:41:37.673 HYPERVISOR: Started on IP = localhost, TCP port = 50760.
+Nov 05 09:41:37.956 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 05 09:41:37.958 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Lab\GNS3-Lab\GNS3-lab-2-vlan\project-files\dynamips 
+Nov 05 09:41:38.246 GENERAL: working_dir=D:\Lab\GNS3-Lab\GNS3-lab-2-vlan\project-files\dynamips
+Nov 05 09:41:38.247 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Lab\GNS3-Lab\GNS3-lab-2-vlan\project-files\dynamips\36695dd2-3b04-4455-a420-8163dd1722ac 
+Nov 05 09:41:38.247 GENERAL: working_dir=D:\Lab\GNS3-Lab\GNS3-lab-2-vlan\project-files\dynamips\36695dd2-3b04-4455-a420-8163dd1722ac
+Nov 05 09:41:38.248 HYPERVISOR: exec_cmd: vm create R2 2 c7200 
+Nov 05 09:41:38.249 VM: VM R2 created.
+Nov 05 09:41:38.250 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5017 
+Nov 05 09:41:38.250 HYPERVISOR: exec_cmd: c7200 get_mac_addr R2 
+Nov 05 09:41:38.251 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 05 09:41:38.251 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 0 C7200-IO-FE 
+Nov 05 09:41:38.252 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Nov 05 09:41:38.252 HYPERVISOR: exec_cmd: vm set_exec_area R2 64 
+Nov 05 09:41:38.253 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 05 09:41:38.253 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x606df838 
+Nov 05 09:41:38.254 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/User/GNS3/images/IOS/c7200-adventerprisek9-mz.124-24.T5.image 
+Nov 05 09:41:38.254 HYPERVISOR: exec_cmd: c7200 set_mac_addr R2 ca02.3498.0000 
+Nov 05 09:41:38.255 HYPERVISOR: exec_cmd: vm set_nvram R2 512 
+Nov 05 09:41:38.256 HYPERVISOR: exec_cmd: vm set_ram R2 512 
+Nov 05 09:41:38.256 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 05 09:41:38.256 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 PA-8T 
+Nov 05 09:41:38.257 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 05 09:41:38.257 HYPERVISOR: exec_cmd: vm slot_add_binding R2 2 0 PA-4E 
+Nov 05 09:41:38.258 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 05 09:41:38.258 HYPERVISOR: exec_cmd: vm slot_add_binding R2 3 0 PA-8E 
+Nov 05 09:41:38.698 HYPERVISOR: exec_cmd: nio create_udp udp-0186e7b9-dcea-4a10-9b03-e7037faf2dbe 10009 127.0.0.1 10010 
+Nov 05 09:41:38.952 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 3 3 udp-0186e7b9-dcea-4a10-9b03-e7037faf2dbe 
+Nov 05 09:41:38.952 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 05 09:41:38.993 HYPERVISOR: exec_cmd: nio create_udp udp-42fc4150-ba4d-43a6-addf-53d80f7ddc94 10012 127.0.0.1 10013 
+Nov 05 09:41:39.011 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 3 2 udp-42fc4150-ba4d-43a6-addf-53d80f7ddc94 
+Nov 05 09:41:39.011 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 05 09:43:04.123 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/User/GNS3/images/IOS/c7200-adventerprisek9-mz.124-24.T5.image 
+Nov 05 09:43:15.210 HYPERVISOR: exec_cmd: vm create Ghost 0 c7200 
+Nov 05 09:43:15.211 VM: VM Ghost created.
+Nov 05 09:43:15.213 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/User/GNS3/images/IOS/c7200-adventerprisek9-mz.124-24.T5.image 
+Nov 05 09:43:15.213 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Nov 05 09:43:15.213 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost D:\Lab\GNS3-Lab\GNS3-lab-2-vlan\project-files\dynamips\c7200-adventerprisek9-mz.124-24.T5.image-512.ghost 
+Nov 05 09:43:15.214 HYPERVISOR: exec_cmd: vm set_ram Ghost 512 
+Nov 05 09:43:15.214 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Nov 05 09:43:15.234 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Nov 05 09:43:15.234 HYPERVISOR: exec_cmd: vm start Ghost 
+Nov 05 09:43:15.826 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Nov 05 09:43:15.827 HYPERVISOR: exec_cmd: vm stop Ghost 
+Nov 05 09:43:16.026 VM: VM Ghost shutdown.
+Nov 05 09:43:16.028 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Nov 05 09:43:16.030 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Nov 05 09:43:16.030 VM: VM Ghost destroyed.
+Nov 05 09:43:16.048 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Nov 05 09:43:16.049 HYPERVISOR: exec_cmd: vm set_ghost_file R2 D:\Lab\GNS3-Lab\GNS3-lab-2-vlan\project-files\dynamips\c7200-adventerprisek9-mz.124-24.T5.image-512.ghost 
+Nov 05 09:43:16.049 HYPERVISOR: exec_cmd: vm get_status R2 
+Nov 05 09:43:16.058 HYPERVISOR: exec_cmd: vm set_config R2 configs\i2_startup-config.cfg 
+Nov 05 09:43:16.058 HYPERVISOR: exec_cmd: vm start R2 
+Nov 05 09:43:46.390 HYPERVISOR: exec_cmd: vm extract_config R2 

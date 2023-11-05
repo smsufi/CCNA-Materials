@@ -1,0 +1,71 @@
+Oct 18 03:43:48.593 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Oct 18 03:43:48.594 HYPERVISOR: Started on IP = localhost, TCP port = 50027.
+Oct 18 03:43:49.017 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 18 03:43:49.018 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Lab\GNS3-Lab\GNS3-lab1.1-hsrp\project-files\dynamips 
+Oct 18 03:43:49.019 GENERAL: working_dir=D:\Lab\GNS3-Lab\GNS3-lab1.1-hsrp\project-files\dynamips
+Oct 18 03:43:49.019 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Lab\GNS3-Lab\GNS3-lab1.1-hsrp\project-files\dynamips\483534d5-8e00-4936-b3d6-495a4dbca83a 
+Oct 18 03:43:49.019 GENERAL: working_dir=D:\Lab\GNS3-Lab\GNS3-lab1.1-hsrp\project-files\dynamips\483534d5-8e00-4936-b3d6-495a4dbca83a
+Oct 18 03:43:49.020 HYPERVISOR: exec_cmd: vm create Server 5 c3600 
+Oct 18 03:43:49.022 VM: VM Server created.
+Oct 18 03:43:49.023 HYPERVISOR: exec_cmd: vm set_con_tcp_port Server 5012 
+Oct 18 03:43:49.023 HYPERVISOR: exec_cmd: c3600 get_mac_addr Server 
+Oct 18 03:43:49.024 HYPERVISOR: exec_cmd: vm set_exec_area Server 64 
+Oct 18 03:43:49.026 HYPERVISOR: exec_cmd: vm set_ios Server C:/Users/User/GNS3/images/IOS/c3640-a3js-mz.124-19b.image 
+Oct 18 03:43:49.026 HYPERVISOR: exec_cmd: c3600 set_mac_addr Server cc05.358c.0000 
+Oct 18 03:43:49.028 HYPERVISOR: exec_cmd: vm set_nvram Server 256 
+Oct 18 03:43:49.028 HYPERVISOR: exec_cmd: vm set_ram Server 192 
+Oct 18 03:43:49.029 HYPERVISOR: exec_cmd: vm get_status Server 
+Oct 18 03:43:49.029 HYPERVISOR: exec_cmd: vm slot_add_binding Server 0 0 NM-1FE-TX 
+Oct 18 03:43:49.030 HYPERVISOR: exec_cmd: vm get_status Server 
+Oct 18 03:43:49.030 HYPERVISOR: exec_cmd: vm slot_add_binding Server 1 0 NM-16ESW 
+Oct 18 03:43:49.031 HYPERVISOR: exec_cmd: vm get_status Server 
+Oct 18 03:43:49.031 HYPERVISOR: exec_cmd: vm slot_add_binding Server 2 0 NM-4T 
+Oct 18 03:43:49.032 HYPERVISOR: exec_cmd: vm get_status Server 
+Oct 18 03:43:49.032 HYPERVISOR: exec_cmd: vm slot_add_binding Server 3 0 NM-4E 
+Oct 18 03:43:53.771 HYPERVISOR: exec_cmd: nio create_udp udp-14345fc1-53ce-48c3-81c2-166884fdad8b 10032 127.0.0.1 10033 
+Oct 18 03:43:54.070 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Server 0 0 udp-14345fc1-53ce-48c3-81c2-166884fdad8b 
+Oct 18 03:43:54.072 HYPERVISOR: exec_cmd: vm get_status Server 
+Oct 18 03:47:39.791 HYPERVISOR: exec_cmd: vm create Ghost 0 c3600 
+Oct 18 03:47:39.806 VM: VM Ghost created.
+Oct 18 03:47:39.807 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/User/GNS3/images/IOS/c3640-a3js-mz.124-19b.image 
+Oct 18 03:47:39.808 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Oct 18 03:47:39.808 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost D:\Lab\GNS3-Lab\GNS3-lab1.1-hsrp\project-files\dynamips\c3640-a3js-mz.124-19b.image-192.ghost 
+Oct 18 03:47:39.809 HYPERVISOR: exec_cmd: vm set_ram Ghost 192 
+Oct 18 03:47:39.809 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Oct 18 03:47:39.825 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Oct 18 03:47:39.826 HYPERVISOR: exec_cmd: vm start Ghost 
+Oct 18 03:47:40.287 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Oct 18 03:47:40.289 HYPERVISOR: exec_cmd: vm stop Ghost 
+Oct 18 03:47:40.588 VM: VM Ghost shutdown.
+Oct 18 03:47:40.589 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Oct 18 03:47:40.591 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Oct 18 03:47:40.591 VM: VM Ghost destroyed.
+Oct 18 03:47:40.593 HYPERVISOR: exec_cmd: vm set_ghost_status Server 2 
+Oct 18 03:47:40.593 HYPERVISOR: exec_cmd: vm set_ghost_file Server D:\Lab\GNS3-Lab\GNS3-lab1.1-hsrp\project-files\dynamips\c3640-a3js-mz.124-19b.image-192.ghost 
+Oct 18 03:47:40.594 HYPERVISOR: exec_cmd: vm get_status Server 
+Oct 18 03:47:40.599 HYPERVISOR: exec_cmd: vm set_config Server configs\i5_startup-config.cfg 
+Oct 18 03:47:40.599 HYPERVISOR: exec_cmd: vm start Server 
+Oct 18 03:48:10.740 HYPERVISOR: exec_cmd: vm extract_config Server 
+Oct 18 04:04:05.820 HYPERVISOR: exec_cmd: vm get_status Server 
+Oct 18 04:04:05.820 HYPERVISOR: exec_cmd: vm stop Server 
+Oct 18 04:04:05.969 VM: VM Server shutdown.
+Oct 18 04:04:05.970 HYPERVISOR: exec_cmd: vm extract_config Server 
+Oct 18 04:35:08.814 HYPERVISOR: exec_cmd: vm set_ghost_status Server 2 
+Oct 18 04:35:08.875 HYPERVISOR: exec_cmd: vm set_ghost_file Server D:\Lab\GNS3-Lab\GNS3-lab1.1-hsrp\project-files\dynamips\c3640-a3js-mz.124-19b.image-192.ghost 
+Oct 18 04:35:08.877 HYPERVISOR: exec_cmd: vm get_status Server 
+Oct 18 04:35:08.968 HYPERVISOR: exec_cmd: vm set_config Server configs\i5_startup-config.cfg 
+Oct 18 04:35:09.035 HYPERVISOR: exec_cmd: vm start Server 
+Oct 18 04:35:39.535 HYPERVISOR: exec_cmd: vm extract_config Server 
+Oct 18 04:54:35.759 HYPERVISOR: exec_cmd: vm get_status Server 
+Oct 18 04:54:35.760 HYPERVISOR: exec_cmd: vm stop Server 
+Oct 18 04:54:35.866 VM: VM Server shutdown.
+Oct 18 04:54:35.868 HYPERVISOR: exec_cmd: vm extract_config Server 
+Oct 18 04:54:40.734 HYPERVISOR: exec_cmd: vm get_status Server 
+Oct 18 04:54:40.735 HYPERVISOR: exec_cmd: vm extract_config Server 
+Oct 18 04:54:41.181 HYPERVISOR: exec_cmd: vm get_status Server 
+Oct 18 04:54:41.182 HYPERVISOR: exec_cmd: vm extract_config Server 
+Oct 18 04:54:41.186 HYPERVISOR: exec_cmd: vm delete Server 
+Oct 18 04:54:41.186 VM: VM Server destroyed.
+Oct 18 04:54:41.189 HYPERVISOR: exec_cmd: hypervisor stop 
+Oct 18 04:54:41.358 HYPERVISOR: Stopped.
+Oct 18 04:54:41.358 GENERAL: reset done.

@@ -1,0 +1,36 @@
+Nov 05 15:29:43.350 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 05 15:29:43.351 HYPERVISOR: Started on IP = localhost, TCP port = 53964.
+Nov 05 15:29:43.356 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 05 15:29:43.357 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Study Materials\FHRP\GNS3-lab1.2-vrrp\project-files\dynamips 
+Nov 05 15:29:43.357 GENERAL: working_dir=D:\Study Materials\FHRP\GNS3-lab1.2-vrrp\project-files\dynamips
+Nov 05 15:29:43.357 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Study Materials\FHRP\GNS3-lab1.2-vrrp\project-files\dynamips\a23ecc65-8390-4526-a3fd-39b52d49d113 
+Nov 05 15:29:43.357 GENERAL: working_dir=D:\Study Materials\FHRP\GNS3-lab1.2-vrrp\project-files\dynamips\a23ecc65-8390-4526-a3fd-39b52d49d113
+Nov 05 15:29:43.358 HYPERVISOR: exec_cmd: vm create Server 5 c3600 
+Nov 05 15:29:43.358 VM: VM Server created.
+Nov 05 15:29:43.359 HYPERVISOR: exec_cmd: vm set_con_tcp_port Server 5005 
+Nov 05 15:29:43.359 HYPERVISOR: exec_cmd: c3600 get_mac_addr Server 
+Nov 05 15:29:43.360 HYPERVISOR: exec_cmd: vm set_exec_area Server 64 
+Nov 05 15:29:43.360 HYPERVISOR: exec_cmd: vm set_ios Server C:/Users/User/GNS3/images/IOS/c3640-a3js-mz.124-19b.image 
+Nov 05 15:29:43.361 HYPERVISOR: exec_cmd: c3600 set_mac_addr Server cc05.358c.0000 
+Nov 05 15:29:43.361 HYPERVISOR: exec_cmd: vm set_nvram Server 256 
+Nov 05 15:29:43.361 HYPERVISOR: exec_cmd: vm set_ram Server 192 
+Nov 05 15:29:43.362 HYPERVISOR: exec_cmd: vm get_status Server 
+Nov 05 15:29:43.362 HYPERVISOR: exec_cmd: vm slot_add_binding Server 0 0 NM-1FE-TX 
+Nov 05 15:29:43.362 HYPERVISOR: exec_cmd: vm get_status Server 
+Nov 05 15:29:43.362 HYPERVISOR: exec_cmd: vm slot_add_binding Server 1 0 NM-16ESW 
+Nov 05 15:29:43.362 HYPERVISOR: exec_cmd: vm get_status Server 
+Nov 05 15:29:43.363 HYPERVISOR: exec_cmd: vm slot_add_binding Server 2 0 NM-4T 
+Nov 05 15:29:43.363 HYPERVISOR: exec_cmd: vm get_status Server 
+Nov 05 15:29:43.363 HYPERVISOR: exec_cmd: vm slot_add_binding Server 3 0 NM-4E 
+Nov 05 15:29:45.374 HYPERVISOR: exec_cmd: nio create_udp udp-7b5478eb-302a-499d-84e2-9d72e0593220 10032 127.0.0.1 10033 
+Nov 05 15:29:45.652 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Server 0 0 udp-7b5478eb-302a-499d-84e2-9d72e0593220 
+Nov 05 15:29:45.653 HYPERVISOR: exec_cmd: vm get_status Server 
+Nov 05 15:32:48.456 HYPERVISOR: exec_cmd: vm get_status Server 
+Nov 05 15:32:48.457 HYPERVISOR: exec_cmd: vm extract_config Server 
+Nov 05 15:32:48.889 HYPERVISOR: exec_cmd: vm get_status Server 
+Nov 05 15:32:48.889 HYPERVISOR: exec_cmd: vm extract_config Server 
+Nov 05 15:32:48.890 HYPERVISOR: exec_cmd: vm delete Server 
+Nov 05 15:32:48.890 VM: VM Server destroyed.
+Nov 05 15:32:48.891 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 05 15:32:49.218 HYPERVISOR: Stopped.
+Nov 05 15:32:49.218 GENERAL: reset done.

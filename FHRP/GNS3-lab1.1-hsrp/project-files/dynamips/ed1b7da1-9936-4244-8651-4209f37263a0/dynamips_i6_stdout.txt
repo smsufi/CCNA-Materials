@@ -1,0 +1,2 @@
+vm_mmap_open_file: unable to open file 'c3600_i4_nvram' (No such file or directory)
+C3600 'Ghost': generic_nvram_extract_config: Unknown error -61605

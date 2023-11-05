@@ -1,0 +1,22 @@
+Oct 18 03:43:47.147 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Oct 18 03:43:47.148 HYPERVISOR: Started on IP = localhost, TCP port = 50021.
+Oct 18 03:43:47.645 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 18 03:43:47.646 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Lab\GNS3-Lab\GNS3-lab1.1-hsrp\project-files\dynamips 
+Oct 18 03:43:47.646 GENERAL: working_dir=D:\Lab\GNS3-Lab\GNS3-lab1.1-hsrp\project-files\dynamips
+Oct 18 03:43:47.647 HYPERVISOR: exec_cmd: ethsw create SW1 
+Oct 18 03:43:50.765 HYPERVISOR: exec_cmd: nio create_udp udp-6362d1c1-3d40-4245-8c51-1d1e460bead5 10001 127.0.0.1 10000 
+Oct 18 03:43:50.767 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-6362d1c1-3d40-4245-8c51-1d1e460bead5 
+Oct 18 03:43:50.774 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 udp-6362d1c1-3d40-4245-8c51-1d1e460bead5 1 
+Oct 18 03:43:51.757 HYPERVISOR: exec_cmd: nio create_udp udp-6e6da00b-8982-4d3b-bc5a-21273b9ce73f 10005 127.0.0.1 10004 
+Oct 18 03:43:51.758 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-6e6da00b-8982-4d3b-bc5a-21273b9ce73f 
+Oct 18 03:43:51.765 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 udp-6e6da00b-8982-4d3b-bc5a-21273b9ce73f 1 
+Oct 18 03:43:52.203 HYPERVISOR: exec_cmd: nio create_udp udp-7479276c-28d0-438c-8418-4fe08c67bc9b 10008 127.0.0.1 10009 
+Oct 18 03:43:52.206 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-7479276c-28d0-438c-8418-4fe08c67bc9b 
+Oct 18 03:43:52.224 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 udp-7479276c-28d0-438c-8418-4fe08c67bc9b 1 
+Oct 18 03:43:52.693 HYPERVISOR: exec_cmd: nio create_udp udp-ed95fbe0-d37e-4c6a-972e-3caaf3911f6e 10012 127.0.0.1 10013 
+Oct 18 03:43:52.693 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-ed95fbe0-d37e-4c6a-972e-3caaf3911f6e 
+Oct 18 03:43:52.705 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 udp-ed95fbe0-d37e-4c6a-972e-3caaf3911f6e 1 
+Oct 18 04:54:40.755 HYPERVISOR: exec_cmd: ethsw delete SW1 
+Oct 18 04:54:40.869 HYPERVISOR: exec_cmd: hypervisor stop 
+Oct 18 04:54:41.368 HYPERVISOR: Stopped.
+Oct 18 04:54:41.369 GENERAL: reset done.

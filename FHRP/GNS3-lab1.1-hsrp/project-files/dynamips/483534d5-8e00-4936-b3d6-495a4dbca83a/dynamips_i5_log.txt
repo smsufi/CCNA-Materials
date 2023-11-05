@@ -1,0 +1,56 @@
+Oct 18 03:43:47.806 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Oct 18 03:43:47.807 HYPERVISOR: Started on IP = localhost, TCP port = 50024.
+Oct 18 03:43:48.291 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 18 03:43:48.292 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Lab\GNS3-Lab\GNS3-lab1.1-hsrp\project-files\dynamips 
+Oct 18 03:43:48.292 GENERAL: working_dir=D:\Lab\GNS3-Lab\GNS3-lab1.1-hsrp\project-files\dynamips
+Oct 18 03:43:48.293 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Lab\GNS3-Lab\GNS3-lab1.1-hsrp\project-files\dynamips\a74bbd4a-181b-48b8-ac27-75ff64c57fe3 
+Oct 18 03:43:48.293 GENERAL: working_dir=D:\Lab\GNS3-Lab\GNS3-lab1.1-hsrp\project-files\dynamips\a74bbd4a-181b-48b8-ac27-75ff64c57fe3
+Oct 18 03:43:48.294 HYPERVISOR: exec_cmd: vm create PC1 4 c3600 
+Oct 18 03:43:48.294 VM: VM PC1 created.
+Oct 18 03:43:48.295 HYPERVISOR: exec_cmd: vm set_con_tcp_port PC1 5011 
+Oct 18 03:43:48.296 HYPERVISOR: exec_cmd: c3600 get_mac_addr PC1 
+Oct 18 03:43:48.296 HYPERVISOR: exec_cmd: vm set_exec_area PC1 64 
+Oct 18 03:43:48.298 HYPERVISOR: exec_cmd: vm set_ios PC1 C:/Users/User/GNS3/images/IOS/c3640-a3js-mz.124-19b.image 
+Oct 18 03:43:48.299 HYPERVISOR: exec_cmd: c3600 set_mac_addr PC1 cc04.2ef4.0000 
+Oct 18 03:43:48.300 HYPERVISOR: exec_cmd: vm set_nvram PC1 256 
+Oct 18 03:43:48.301 HYPERVISOR: exec_cmd: vm set_ram PC1 192 
+Oct 18 03:43:48.301 HYPERVISOR: exec_cmd: vm get_status PC1 
+Oct 18 03:43:48.302 HYPERVISOR: exec_cmd: vm slot_add_binding PC1 0 0 NM-1FE-TX 
+Oct 18 03:43:48.302 HYPERVISOR: exec_cmd: vm get_status PC1 
+Oct 18 03:43:48.302 HYPERVISOR: exec_cmd: vm slot_add_binding PC1 1 0 NM-16ESW 
+Oct 18 03:43:48.302 HYPERVISOR: exec_cmd: vm get_status PC1 
+Oct 18 03:43:48.302 HYPERVISOR: exec_cmd: vm slot_add_binding PC1 2 0 NM-4T 
+Oct 18 03:43:48.304 HYPERVISOR: exec_cmd: vm get_status PC1 
+Oct 18 03:43:48.304 HYPERVISOR: exec_cmd: vm slot_add_binding PC1 3 0 NM-4E 
+Oct 18 03:43:49.824 HYPERVISOR: exec_cmd: nio create_udp udp-f92a4842-ea82-4f0b-bb94-a9e462c80694 10002 127.0.0.1 10003 
+Oct 18 03:43:50.745 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PC1 3 0 udp-f92a4842-ea82-4f0b-bb94-a9e462c80694 
+Oct 18 03:43:50.746 HYPERVISOR: exec_cmd: vm get_status PC1 
+Oct 18 03:47:45.633 HYPERVISOR: exec_cmd: vm set_ghost_status PC1 2 
+Oct 18 03:47:45.634 HYPERVISOR: exec_cmd: vm set_ghost_file PC1 D:\Lab\GNS3-Lab\GNS3-lab1.1-hsrp\project-files\dynamips\c3640-a3js-mz.124-19b.image-192.ghost 
+Oct 18 03:47:45.634 HYPERVISOR: exec_cmd: vm get_status PC1 
+Oct 18 03:47:45.642 HYPERVISOR: exec_cmd: vm set_config PC1 configs\i4_startup-config.cfg 
+Oct 18 03:47:45.642 HYPERVISOR: exec_cmd: vm start PC1 
+Oct 18 03:48:18.420 HYPERVISOR: exec_cmd: vm extract_config PC1 
+Oct 18 04:04:05.816 HYPERVISOR: exec_cmd: vm get_status PC1 
+Oct 18 04:04:05.817 HYPERVISOR: exec_cmd: vm stop PC1 
+Oct 18 04:04:05.971 VM: VM PC1 shutdown.
+Oct 18 04:04:05.984 HYPERVISOR: exec_cmd: vm extract_config PC1 
+Oct 18 04:35:09.196 HYPERVISOR: exec_cmd: vm set_ghost_status PC1 2 
+Oct 18 04:35:09.204 HYPERVISOR: exec_cmd: vm set_ghost_file PC1 D:\Lab\GNS3-Lab\GNS3-lab1.1-hsrp\project-files\dynamips\c3640-a3js-mz.124-19b.image-192.ghost 
+Oct 18 04:35:09.267 HYPERVISOR: exec_cmd: vm get_status PC1 
+Oct 18 04:35:09.332 HYPERVISOR: exec_cmd: vm set_config PC1 configs\i4_startup-config.cfg 
+Oct 18 04:35:09.338 HYPERVISOR: exec_cmd: vm start PC1 
+Oct 18 04:35:39.713 HYPERVISOR: exec_cmd: vm extract_config PC1 
+Oct 18 04:54:35.712 HYPERVISOR: exec_cmd: vm get_status PC1 
+Oct 18 04:54:35.712 HYPERVISOR: exec_cmd: vm stop PC1 
+Oct 18 04:54:35.855 VM: VM PC1 shutdown.
+Oct 18 04:54:35.856 HYPERVISOR: exec_cmd: vm extract_config PC1 
+Oct 18 04:54:40.734 HYPERVISOR: exec_cmd: vm get_status PC1 
+Oct 18 04:54:40.734 HYPERVISOR: exec_cmd: vm extract_config PC1 
+Oct 18 04:54:40.906 HYPERVISOR: exec_cmd: vm get_status PC1 
+Oct 18 04:54:40.907 HYPERVISOR: exec_cmd: vm extract_config PC1 
+Oct 18 04:54:40.911 HYPERVISOR: exec_cmd: vm delete PC1 
+Oct 18 04:54:40.912 VM: VM PC1 destroyed.
+Oct 18 04:54:40.914 HYPERVISOR: exec_cmd: hypervisor stop 
+Oct 18 04:54:41.357 HYPERVISOR: Stopped.
+Oct 18 04:54:41.358 GENERAL: reset done.

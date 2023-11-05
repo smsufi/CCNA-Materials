@@ -1,0 +1,36 @@
+Oct 20 21:59:18.446 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Oct 20 21:59:18.447 HYPERVISOR: Started on IP = localhost, TCP port = 54270.
+Oct 20 21:59:18.955 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 20 21:59:18.956 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Lab\GNS3-Lab\GNS3-lab1.3-glbp\project-files\dynamips 
+Oct 20 21:59:18.956 GENERAL: working_dir=D:\Lab\GNS3-Lab\GNS3-lab1.3-glbp\project-files\dynamips
+Oct 20 21:59:18.956 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Lab\GNS3-Lab\GNS3-lab1.3-glbp\project-files\dynamips\a8545d17-4337-4df9-b8d9-dc19f25b06d5 
+Oct 20 21:59:18.956 GENERAL: working_dir=D:\Lab\GNS3-Lab\GNS3-lab1.3-glbp\project-files\dynamips\a8545d17-4337-4df9-b8d9-dc19f25b06d5
+Oct 20 21:59:18.957 HYPERVISOR: exec_cmd: vm create PC1 4 c3600 
+Oct 20 21:59:18.958 VM: VM PC1 created.
+Oct 20 21:59:18.959 HYPERVISOR: exec_cmd: vm set_con_tcp_port PC1 5011 
+Oct 20 21:59:18.959 HYPERVISOR: exec_cmd: c3600 get_mac_addr PC1 
+Oct 20 21:59:18.960 HYPERVISOR: exec_cmd: vm set_exec_area PC1 64 
+Oct 20 21:59:18.961 HYPERVISOR: exec_cmd: vm set_ios PC1 C:/Users/User/GNS3/images/IOS/c3640-a3js-mz.124-19b.image 
+Oct 20 21:59:18.962 HYPERVISOR: exec_cmd: c3600 set_mac_addr PC1 cc04.2ef4.0000 
+Oct 20 21:59:18.962 HYPERVISOR: exec_cmd: vm set_nvram PC1 256 
+Oct 20 21:59:18.963 HYPERVISOR: exec_cmd: vm set_ram PC1 192 
+Oct 20 21:59:18.963 HYPERVISOR: exec_cmd: vm get_status PC1 
+Oct 20 21:59:18.963 HYPERVISOR: exec_cmd: vm slot_add_binding PC1 0 0 NM-1FE-TX 
+Oct 20 21:59:18.963 HYPERVISOR: exec_cmd: vm get_status PC1 
+Oct 20 21:59:18.963 HYPERVISOR: exec_cmd: vm slot_add_binding PC1 1 0 NM-16ESW 
+Oct 20 21:59:18.964 HYPERVISOR: exec_cmd: vm get_status PC1 
+Oct 20 21:59:18.964 HYPERVISOR: exec_cmd: vm slot_add_binding PC1 2 0 NM-4T 
+Oct 20 21:59:18.964 HYPERVISOR: exec_cmd: vm get_status PC1 
+Oct 20 21:59:18.964 HYPERVISOR: exec_cmd: vm slot_add_binding PC1 3 0 NM-4E 
+Oct 20 21:59:19.962 HYPERVISOR: exec_cmd: nio create_udp udp-fcfa29c1-5e59-4472-a2a6-b985fcfed69b 10002 127.0.0.1 10003 
+Oct 20 21:59:20.403 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PC1 3 0 udp-fcfa29c1-5e59-4472-a2a6-b985fcfed69b 
+Oct 20 21:59:20.404 HYPERVISOR: exec_cmd: vm get_status PC1 
+Oct 20 23:25:02.525 HYPERVISOR: exec_cmd: vm get_status PC1 
+Oct 20 23:25:02.528 HYPERVISOR: exec_cmd: vm extract_config PC1 
+Oct 20 23:25:02.803 HYPERVISOR: exec_cmd: vm get_status PC1 
+Oct 20 23:25:02.814 HYPERVISOR: exec_cmd: vm extract_config PC1 
+Oct 20 23:25:02.818 HYPERVISOR: exec_cmd: vm delete PC1 
+Oct 20 23:25:02.818 VM: VM PC1 destroyed.
+Oct 20 23:25:02.823 HYPERVISOR: exec_cmd: hypervisor stop 
+Oct 20 23:25:03.024 HYPERVISOR: Stopped.
+Oct 20 23:25:03.024 GENERAL: reset done.

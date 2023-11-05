@@ -1,0 +1,789 @@
+Nov 05 09:43:16.059 VTTY: Console port: waiting connection on tcp port 5017 for protocol IPv6 (FD 11)
+Nov 05 09:43:16.059 VTTY: Console port: waiting connection on tcp port 5017 for protocol IPv4 (FD 12)
+Nov 05 09:43:16.139 CONSOLE: console managed by I/O board
+Nov 05 09:43:16.370 C7200_BOOT: starting instance (CPU0 PC=0xffffffffbfc00000,idle_pc=0x606df838,JIT on)
+Nov 05 09:43:16.370 CPU0: CPU_STATE: Starting CPU (old state=2)...
+Nov 05 09:43:16.462 ROM: Microcode has started.
+Nov 05 09:43:16.466 ROM: trying to read bootvar 'WARM_REBOOT'
+Nov 05 09:43:16.468 CPU0: IO_FPGA: read from addr 0x3a0, pc=0xffffffff801ca1e4 (size=2)
+Nov 05 09:43:16.491 ROM: unhandled syscall 0x00000032 at pc=0x606dcd28 (a1=0x00000000,a2=0x65940000,a3=0x65940000)
+Nov 05 09:43:16.494 CPU0: IO_FPGA: read from addr 0x224, pc=0x601cb618 (size=1)
+Nov 05 09:43:16.724 ROM: trying to read bootvar 'IOMEM_SIZE'
+Nov 05 09:43:16.730 ROM: trying to read bootvar 'RANDOM_NUM'
+Nov 05 09:43:16.740 CPU0: IO_FPGA: write to addr 0x398, value=0x2000000, pc=0x601cbb3c (size=4)
+Nov 05 09:43:16.740 CPU0: IO_FPGA: write to addr 0x398, value=0x0, pc=0x601cbbbc (size=4)
+Nov 05 09:43:16.740 CPU0: MP_FPGA: writing reg 0x70 at pc=0x60210ef4 (data=0x7e)
+Nov 05 09:43:16.740 CPU0: PCI: read request for device 'gt64120' at pc=0x601edfbc: bus=0,device=0,function=0,reg=0x00
+Nov 05 09:43:16.740 CPU0: PCI: read request for device 'gt64120' at pc=0x601edfc0: bus=0,device=0,function=0,reg=0x00
+Nov 05 09:43:16.740 CPU0: PCI: read request for device 'gt64120' at pc=0x601edd6c: bus=0,device=0,function=0,reg=0x08
+Nov 05 09:43:16.740 CPU0: PCI: write request (data=0x00000000) for device 'gt64120' at pc=0x601edeb8: bus=0,device=0,function=0,reg=0x10
+Nov 05 09:43:16.740 CPU0: PCI: write request (data=0x00000000) for device 'gt64120' at pc=0x601edebc: bus=0,device=0,function=0,reg=0x10
+Nov 05 09:43:16.740 CPU0: PCI: write request (data=0x00000000) for device 'gt64120' at pc=0x601edeb8: bus=0,device=0,function=0,reg=0x90
+Nov 05 09:43:16.740 CPU0: PCI: write request (data=0x00000000) for device 'gt64120' at pc=0x601edebc: bus=0,device=0,function=0,reg=0x90
+Nov 05 09:43:16.740 CPU0: PCI: write request (data=0x10000000) for device 'gt64120' at pc=0x601edeb8: bus=0,device=0,function=0,reg=0x14
+Nov 05 09:43:16.740 CPU0: PCI: write request (data=0x10000000) for device 'gt64120' at pc=0x601edebc: bus=0,device=0,function=0,reg=0x14
+Nov 05 09:43:16.740 CPU0: PCI: write request (data=0x10000000) for device 'gt64120' at pc=0x601edeb8: bus=0,device=0,function=0,reg=0x94
+Nov 05 09:43:16.740 CPU0: PCI: write request (data=0x10000000) for device 'gt64120' at pc=0x601edebc: bus=0,device=0,function=0,reg=0x94
+Nov 05 09:43:16.740 CPU0: PCI: write request (data=0x14000000) for device 'gt64120' at pc=0x601edeb8: bus=0,device=0,function=0,reg=0x20
+Nov 05 09:43:16.740 CPU0: PCI: write request (data=0x14000000) for device 'gt64120' at pc=0x601edebc: bus=0,device=0,function=0,reg=0x20
+Nov 05 09:43:16.740 CPU0: PCI: write request (data=0x14000000) for device 'gt64120' at pc=0x601edeb8: bus=0,device=0,function=0,reg=0xa0
+Nov 05 09:43:16.740 CPU0: PCI: write request (data=0x14000000) for device 'gt64120' at pc=0x601edebc: bus=0,device=0,function=0,reg=0xa0
+Nov 05 09:43:16.740 CPU0: PCI: write request (data=0x00000146) for device 'gt64120' at pc=0x601edeb8: bus=0,device=0,function=0,reg=0x04
+Nov 05 09:43:16.740 CPU0: PCI: write request (data=0x00000146) for device 'gt64120' at pc=0x601edebc: bus=0,device=0,function=0,reg=0x04
+Nov 05 09:43:16.740 CPU0: PCI: write request (data=0x00000146) for device 'gt64120' at pc=0x601edeb8: bus=0,device=0,function=0,reg=0x84
+Nov 05 09:43:16.740 CPU0: PCI: write request (data=0x00000146) for device 'gt64120' at pc=0x601edebc: bus=0,device=0,function=0,reg=0x84
+Nov 05 09:43:16.740 CPU0: PCI: write request (data=0x0000000f) for device 'gt64120' at pc=0x601edeb8: bus=0,device=0,function=0,reg=0x0c
+Nov 05 09:43:16.740 CPU0: PCI: write request (data=0x0000000f) for device 'gt64120' at pc=0x601edebc: bus=0,device=0,function=0,reg=0x0c
+Nov 05 09:43:16.740 CPU0: PCI: write request (data=0x0000000f) for device 'gt64120' at pc=0x601edeb8: bus=0,device=0,function=0,reg=0x8c
+Nov 05 09:43:16.740 CPU0: PCI: write request (data=0x0000000f) for device 'gt64120' at pc=0x601edebc: bus=0,device=0,function=0,reg=0x8c
+Nov 05 09:43:16.740 CPU0: PCI: write request (data=0xc0000000) for unknown device at pc=0x601edeb8 (bus=0,device=0,function=1,reg=0x10).
+Nov 05 09:43:16.740 CPU0: PCI: write request (data=0xc0000000) for unknown device at pc=0x601edebc (bus=0,device=0,function=1,reg=0x10).
+Nov 05 09:43:16.740 CPU0: PCI: write request (data=0xc0000000) for unknown device at pc=0x601edeb8 (bus=0,device=0,function=1,reg=0x90).
+Nov 05 09:43:16.740 CPU0: PCI: write request (data=0xc0000000) for unknown device at pc=0x601edebc (bus=0,device=0,function=1,reg=0x90).
+Nov 05 09:43:16.740 CPU0: PCI: write request (data=0xd0000000) for unknown device at pc=0x601edeb8 (bus=0,device=0,function=1,reg=0x14).
+Nov 05 09:43:16.740 CPU0: PCI: write request (data=0xd0000000) for unknown device at pc=0x601edebc (bus=0,device=0,function=1,reg=0x14).
+Nov 05 09:43:16.740 CPU0: PCI: write request (data=0xd0000000) for unknown device at pc=0x601edeb8 (bus=0,device=0,function=1,reg=0x94).
+Nov 05 09:43:16.740 CPU0: PCI: write request (data=0xd0000000) for unknown device at pc=0x601edebc (bus=0,device=0,function=1,reg=0x94).
+Nov 05 09:43:16.740 CPU0: PCI: write request (data=0x000000c0) for unknown device at pc=0x601edeb8 (bus=0,device=0,function=1,reg=0x1c).
+Nov 05 09:43:16.740 CPU0: PCI: write request (data=0x000000c0) for unknown device at pc=0x601edebc (bus=0,device=0,function=1,reg=0x1c).
+Nov 05 09:43:16.740 CPU0: PCI: write request (data=0x000000c0) for unknown device at pc=0x601edeb8 (bus=0,device=0,function=1,reg=0x9c).
+Nov 05 09:43:16.740 CPU0: PCI: write request (data=0x000000c0) for unknown device at pc=0x601edebc (bus=0,device=0,function=1,reg=0x9c).
+Nov 05 09:43:16.743 CPU0: PCI: read request for device 'dec21050' at pc=0x601edfbc: bus=0,device=1,function=0,reg=0x00
+Nov 05 09:43:16.743 CPU0: PCI: read request for device 'dec21050' at pc=0x601edfc0: bus=0,device=1,function=0,reg=0x00
+Nov 05 09:43:16.743 CPU0: PCI: read request for device 'dec21050' at pc=0x601edfbc: bus=0,device=1,function=0,reg=0x40
+Nov 05 09:43:16.743 CPU0: PCI: read request for device 'dec21050' at pc=0x601edfc0: bus=0,device=1,function=0,reg=0x40
+Nov 05 09:43:16.743 CPU0: PCI: write request (data=0x00000147) for device 'dec21050' at pc=0x601ede78: bus=0,device=1,function=0,reg=0x04
+Nov 05 09:43:16.743 CPU0: PCI: write request (data=0x00000147) for device 'dec21050' at pc=0x601ede84: bus=0,device=1,function=0,reg=0x04
+Nov 05 09:43:16.743 CPU0: PCI: write request (data=0x00002e10) for device 'dec21050' at pc=0x601ede78: bus=0,device=1,function=0,reg=0x0c
+Nov 05 09:43:16.743 CPU0: PCI: write request (data=0x00002e10) for device 'dec21050' at pc=0x601ede84: bus=0,device=1,function=0,reg=0x0c
+Nov 05 09:43:16.743 CPU0: PCI: write request (data=0x18020100) for device 'dec21050' at pc=0x601ede78: bus=0,device=1,function=0,reg=0x18
+Nov 05 09:43:16.743 PCI: PCI bridge 0,1,0 -> pri: 00, sec: 01, sub: 02
+Nov 05 09:43:16.743 CPU0: PCI: write request (data=0x18020100) for device 'dec21050' at pc=0x601ede84: bus=0,device=1,function=0,reg=0x18
+Nov 05 09:43:16.743 PCI: PCI bridge 0,1,0 -> pri: 00, sec: 01, sub: 02
+Nov 05 09:43:16.743 CPU0: PCI: write request (data=0xffff3f00) for device 'dec21050' at pc=0x601ede78: bus=0,device=1,function=0,reg=0x1c
+Nov 05 09:43:16.743 CPU0: PCI: write request (data=0xffff3f00) for device 'dec21050' at pc=0x601ede84: bus=0,device=1,function=0,reg=0x1c
+Nov 05 09:43:16.743 CPU0: PCI: write request (data=0x48704000) for device 'dec21050' at pc=0x601ede78: bus=0,device=1,function=0,reg=0x20
+Nov 05 09:43:16.743 CPU0: PCI: write request (data=0x48704000) for device 'dec21050' at pc=0x601ede84: bus=0,device=1,function=0,reg=0x20
+Nov 05 09:43:16.743 CPU0: PCI: write request (data=0x0000ff00) for device 'dec21050' at pc=0x601ede78: bus=0,device=1,function=0,reg=0x24
+Nov 05 09:43:16.743 CPU0: PCI: write request (data=0x0000ff00) for device 'dec21050' at pc=0x601ede84: bus=0,device=1,function=0,reg=0x24
+Nov 05 09:43:16.743 CPU0: PCI: write request (data=0x00030000) for device 'dec21050' at pc=0x601ede78: bus=0,device=1,function=0,reg=0x3c
+Nov 05 09:43:16.743 CPU0: PCI: write request (data=0x00030000) for device 'dec21050' at pc=0x601ede84: bus=0,device=1,function=0,reg=0x3c
+Nov 05 09:43:16.743 CPU0: PCI: write request (data=0x00100000) for device 'dec21050' at pc=0x601ede78: bus=0,device=1,function=0,reg=0x40
+Nov 05 09:43:16.743 CPU0: PCI: write request (data=0x00100000) for device 'dec21050' at pc=0x601ede84: bus=0,device=1,function=0,reg=0x40
+Nov 05 09:43:16.743 CPU0: PCI: write request (data=0x00009020) for device 'dec21050' at pc=0x601ede78: bus=0,device=1,function=0,reg=0x44
+Nov 05 09:43:16.743 CPU0: PCI: write request (data=0x00009020) for device 'dec21050' at pc=0x601ede84: bus=0,device=1,function=0,reg=0x44
+Nov 05 09:43:16.743 CPU0: PCI: read request for device 'clpd6729' at pc=0x601edfbc: bus=2,device=16,function=0,reg=0x00
+Nov 05 09:43:16.743 CPU0: PCI: read request for device 'clpd6729' at pc=0x601edfc0: bus=2,device=16,function=0,reg=0x00
+Nov 05 09:43:16.743 CPU0: PCI: write request (data=0x000001c3) for device 'clpd6729' at pc=0x601ede78: bus=2,device=16,function=0,reg=0x04
+Nov 05 09:43:16.743 CPU0: PCI: write request (data=0x000001c3) for device 'clpd6729' at pc=0x601ede84: bus=2,device=16,function=0,reg=0x04
+Nov 05 09:43:16.743 CPU0: PCI: write request (data=0x00000400) for device 'clpd6729' at pc=0x601ede78: bus=2,device=16,function=0,reg=0x10
+Nov 05 09:43:16.743 CPU0: PCI: write request (data=0x00000400) for device 'clpd6729' at pc=0x601ede84: bus=2,device=16,function=0,reg=0x10
+Nov 05 09:43:17.152 ROM: trying to read bootvar 'BOOT'
+Nov 05 09:43:17.152 ROM: trying to read bootvar 'CONFIG_FILE'
+Nov 05 09:43:17.152 ROM: trying to read bootvar 'BOOTLDR'
+Nov 05 09:43:17.152 ROM: trying to read bootvar 'RSHELF'
+Nov 05 09:43:17.152 ROM: trying to read bootvar 'DSHELF'
+Nov 05 09:43:17.152 ROM: trying to read bootvar 'DSHELFINFO'
+Nov 05 09:43:17.152 ROM: trying to read bootvar 'RESET_COUNTER'
+Nov 05 09:43:17.152 ROM: trying to read bootvar 'CHRG_LOCRECSN'
+Nov 05 09:43:17.152 ROM: trying to read bootvar 'CHRG_ID'
+Nov 05 09:43:17.152 ROM: trying to read bootvar 'SLOTCACHE'
+Nov 05 09:43:17.152 ROM: trying to read bootvar 'OVERTEMP'
+Nov 05 09:43:17.152 ROM: trying to read bootvar 'DIAG'
+Nov 05 09:43:17.152 ROM: trying to read bootvar 'DIAMETER_ORIGIN_ID'
+Nov 05 09:43:17.152 ROM: trying to read bootvar 'WARM_REBOOT'
+Nov 05 09:43:18.174 ROM: unhandled syscall 0x0000007c at pc=0x606dcd28 (a1=0x0000e100,a2=0x00000000,a3=0x00000000)
+Nov 05 09:43:18.175 ROM: unhandled syscall 0x0000007c at pc=0x606dcd28 (a1=0x00000000,a2=0x00000008,a3=0x00000009)
+Nov 05 09:43:18.175 CPU0: PCI: read request for device 'gt64120' at pc=0x60217364: bus=0,device=0,function=0,reg=0x08
+Nov 05 09:43:18.175 CPU0: CLPD6729: ext reg index 0x03 at pc=0x6021ea68
+Nov 05 09:43:18.175 CPU0: CLPD6729: ext reg index 0x03 at pc=0x6021ea68
+Nov 05 09:43:18.176 CPU0: CLPD6729: ext reg index 0x09 at pc=0x6021ea68
+Nov 05 09:43:18.176 CPU0: CLPD6729: ext reg index 0x09 at pc=0x6021ea68
+Nov 05 09:43:18.176 CPU0: CLPD6729: ext reg index 0x05 at pc=0x6021ea68
+Nov 05 09:43:18.176 CPU0: CLPD6729: ext reg index 0x05 at pc=0x6021ea68
+Nov 05 09:43:18.189 Calendar: reset
+Nov 05 09:43:18.219 CPU0: JIT: partial JIT flush (count=783)
+Nov 05 09:43:18.237 ROM: trying to read bootvar 'CONFIG_FILE'
+Nov 05 09:43:18.238 ROM: trying to read bootvar 'BOOTLDR'
+Nov 05 09:43:18.306 CPU0: MP_FPGA: writing reg 0x70 at pc=0x60215b2c (data=0x2)
+Nov 05 09:43:18.359 CPU0: MP_FPGA: writing reg 0x70 at pc=0x60215b2c (data=0x4)
+Nov 05 09:43:18.419 CPU0: MP_FPGA: writing reg 0x70 at pc=0x60215b2c (data=0x8)
+Nov 05 09:43:18.502 CPU0: PCI: read request for device 'dec21150' at pc=0x601edfbc: bus=0,device=7,function=0,reg=0x00
+Nov 05 09:43:18.502 CPU0: PCI: read request for device 'dec21150' at pc=0x601edfc0: bus=0,device=7,function=0,reg=0x00
+Nov 05 09:43:18.502 CPU0: PCI: read request for device 'dec21150' at pc=0x601edfbc: bus=0,device=7,function=0,reg=0x08
+Nov 05 09:43:18.502 CPU0: PCI: read request for device 'dec21150' at pc=0x601edfc0: bus=0,device=7,function=0,reg=0x08
+Nov 05 09:43:18.502 CPU0: PCI: read request for device 'dec21150' at pc=0x601edfbc: bus=0,device=7,function=0,reg=0x00
+Nov 05 09:43:18.502 CPU0: PCI: read request for device 'dec21150' at pc=0x601edfc0: bus=0,device=7,function=0,reg=0x00
+Nov 05 09:43:18.503 CPU0: PCI: read request for device 'dec21150' at pc=0x601edfbc: bus=0,device=7,function=0,reg=0x40
+Nov 05 09:43:18.503 CPU0: PCI: read request for device 'dec21150' at pc=0x601edfc0: bus=0,device=7,function=0,reg=0x40
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0xffff0000) for device 'dec21150' at pc=0x601ede78: bus=0,device=7,function=0,reg=0x04
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0xffff0000) for device 'dec21150' at pc=0x601ede84: bus=0,device=7,function=0,reg=0x04
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x00002e10) for device 'dec21150' at pc=0x601ede78: bus=0,device=7,function=0,reg=0x0c
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x00002e10) for device 'dec21150' at pc=0x601ede84: bus=0,device=7,function=0,reg=0x0c
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x18050504) for device 'dec21150' at pc=0x601ede78: bus=0,device=7,function=0,reg=0x18
+Nov 05 09:43:18.503 PCI: PCI bridge 0,7,0 -> pri: 04, sec: 05, sub: 05
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x18050504) for device 'dec21150' at pc=0x601ede84: bus=0,device=7,function=0,reg=0x18
+Nov 05 09:43:18.503 PCI: PCI bridge 0,7,0 -> pri: 04, sec: 05, sub: 05
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x02805f40) for device 'dec21150' at pc=0x601ede78: bus=0,device=7,function=0,reg=0x1c
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x02805f40) for device 'dec21150' at pc=0x601ede84: bus=0,device=7,function=0,reg=0x1c
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x48f04880) for device 'dec21150' at pc=0x601ede78: bus=0,device=7,function=0,reg=0x20
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x48f04880) for device 'dec21150' at pc=0x601ede84: bus=0,device=7,function=0,reg=0x20
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x0001ff01) for device 'dec21150' at pc=0x601ede78: bus=0,device=7,function=0,reg=0x24
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x0001ff01) for device 'dec21150' at pc=0x601ede84: bus=0,device=7,function=0,reg=0x24
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x00000000) for device 'dec21150' at pc=0x601ede78: bus=0,device=7,function=0,reg=0x30
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x00000000) for device 'dec21150' at pc=0x601ede84: bus=0,device=7,function=0,reg=0x30
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x03030000) for device 'dec21150' at pc=0x601ede78: bus=0,device=7,function=0,reg=0x3c
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x03030000) for device 'dec21150' at pc=0x601ede84: bus=0,device=7,function=0,reg=0x3c
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x02000000) for device 'dec21150' at pc=0x601ede78: bus=0,device=7,function=0,reg=0x40
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x02000000) for device 'dec21150' at pc=0x601ede84: bus=0,device=7,function=0,reg=0x40
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x00000000) for device 'dec21150' at pc=0x601ede78: bus=0,device=7,function=0,reg=0x64
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x00000000) for device 'dec21150' at pc=0x601ede84: bus=0,device=7,function=0,reg=0x64
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x000001ff) for device 'dec21150' at pc=0x601ede78: bus=0,device=7,function=0,reg=0x68
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x000001ff) for device 'dec21150' at pc=0x601ede84: bus=0,device=7,function=0,reg=0x68
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x00000147) for device 'dec21150' at pc=0x601ede78: bus=0,device=7,function=0,reg=0x04
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x00000147) for device 'dec21150' at pc=0x601ede84: bus=0,device=7,function=0,reg=0x04
+Nov 05 09:43:18.503 CPU0: PCI: read request for device 'dec21150' at pc=0x601edfcc: bus=0,device=7,function=0,reg=0x00
+Nov 05 09:43:18.503 CPU0: PCI: read request for device 'dec21150' at pc=0x601edfd0: bus=0,device=7,function=0,reg=0x00
+Nov 05 09:43:18.503 CPU0: PCI: read request for device 'dec21150' at pc=0x601edfcc: bus=0,device=7,function=0,reg=0x08
+Nov 05 09:43:18.503 CPU0: PCI: read request for device 'dec21150' at pc=0x601edfd0: bus=0,device=7,function=0,reg=0x08
+Nov 05 09:43:18.503 CPU0: PCI: read request for device 'dec21150' at pc=0x601edfcc: bus=0,device=7,function=0,reg=0x00
+Nov 05 09:43:18.503 CPU0: PCI: read request for device 'dec21150' at pc=0x601edfd0: bus=0,device=7,function=0,reg=0x00
+Nov 05 09:43:18.503 CPU0: PCI: read request for device 'dec21150' at pc=0x601edfcc: bus=0,device=7,function=0,reg=0x40
+Nov 05 09:43:18.503 CPU0: PCI: read request for device 'dec21150' at pc=0x601edfd0: bus=0,device=7,function=0,reg=0x40
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0xffff0000) for device 'dec21150' at pc=0x601ede98: bus=0,device=7,function=0,reg=0x04
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0xffff0000) for device 'dec21150' at pc=0x601edea4: bus=0,device=7,function=0,reg=0x04
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x00002e10) for device 'dec21150' at pc=0x601ede98: bus=0,device=7,function=0,reg=0x0c
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x00002e10) for device 'dec21150' at pc=0x601edea4: bus=0,device=7,function=0,reg=0x0c
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x180b0b0a) for device 'dec21150' at pc=0x601ede98: bus=0,device=7,function=0,reg=0x18
+Nov 05 09:43:18.503 PCI: PCI bridge 0,7,0 -> pri: 10, sec: 11, sub: 11
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x180b0b0a) for device 'dec21150' at pc=0x601edea4: bus=0,device=7,function=0,reg=0x18
+Nov 05 09:43:18.503 PCI: PCI bridge 0,7,0 -> pri: 10, sec: 11, sub: 11
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x0280bfa0) for device 'dec21150' at pc=0x601ede98: bus=0,device=7,function=0,reg=0x1c
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x0280bfa0) for device 'dec21150' at pc=0x601edea4: bus=0,device=7,function=0,reg=0x1c
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x4d704d00) for device 'dec21150' at pc=0x601ede98: bus=0,device=7,function=0,reg=0x20
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x4d704d00) for device 'dec21150' at pc=0x601edea4: bus=0,device=7,function=0,reg=0x20
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x0001ff01) for device 'dec21150' at pc=0x601ede98: bus=0,device=7,function=0,reg=0x24
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x0001ff01) for device 'dec21150' at pc=0x601edea4: bus=0,device=7,function=0,reg=0x24
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x00200020) for device 'dec21150' at pc=0x601ede98: bus=0,device=7,function=0,reg=0x30
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x00200020) for device 'dec21150' at pc=0x601edea4: bus=0,device=7,function=0,reg=0x30
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x03030000) for device 'dec21150' at pc=0x601ede98: bus=0,device=7,function=0,reg=0x3c
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x03030000) for device 'dec21150' at pc=0x601edea4: bus=0,device=7,function=0,reg=0x3c
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x02000000) for device 'dec21150' at pc=0x601ede98: bus=0,device=7,function=0,reg=0x40
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x02000000) for device 'dec21150' at pc=0x601edea4: bus=0,device=7,function=0,reg=0x40
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x00000000) for device 'dec21150' at pc=0x601ede98: bus=0,device=7,function=0,reg=0x64
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x00000000) for device 'dec21150' at pc=0x601edea4: bus=0,device=7,function=0,reg=0x64
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x000001ff) for device 'dec21150' at pc=0x601ede98: bus=0,device=7,function=0,reg=0x68
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x000001ff) for device 'dec21150' at pc=0x601edea4: bus=0,device=7,function=0,reg=0x68
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x00000147) for device 'dec21150' at pc=0x601ede98: bus=0,device=7,function=0,reg=0x04
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x00000147) for device 'dec21150' at pc=0x601edea4: bus=0,device=7,function=0,reg=0x04
+Nov 05 09:43:18.503 CPU0: PCI: read request for device 'dec21150' at pc=0x601edfbc: bus=0,device=8,function=0,reg=0x00
+Nov 05 09:43:18.503 CPU0: PCI: read request for device 'dec21150' at pc=0x601edfc0: bus=0,device=8,function=0,reg=0x00
+Nov 05 09:43:18.503 CPU0: PCI: read request for device 'dec21150' at pc=0x601edfbc: bus=0,device=8,function=0,reg=0x08
+Nov 05 09:43:18.503 CPU0: PCI: read request for device 'dec21150' at pc=0x601edfc0: bus=0,device=8,function=0,reg=0x08
+Nov 05 09:43:18.503 CPU0: PCI: read request for device 'dec21150' at pc=0x601edfbc: bus=0,device=8,function=0,reg=0x00
+Nov 05 09:43:18.503 CPU0: PCI: read request for device 'dec21150' at pc=0x601edfc0: bus=0,device=8,function=0,reg=0x00
+Nov 05 09:43:18.503 CPU0: PCI: read request for device 'dec21150' at pc=0x601edfbc: bus=0,device=8,function=0,reg=0x40
+Nov 05 09:43:18.503 CPU0: PCI: read request for device 'dec21150' at pc=0x601edfc0: bus=0,device=8,function=0,reg=0x40
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0xffff0000) for device 'dec21150' at pc=0x601ede78: bus=0,device=8,function=0,reg=0x04
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0xffff0000) for device 'dec21150' at pc=0x601ede84: bus=0,device=8,function=0,reg=0x04
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x00002e10) for device 'dec21150' at pc=0x601ede78: bus=0,device=8,function=0,reg=0x0c
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x00002e10) for device 'dec21150' at pc=0x601ede84: bus=0,device=8,function=0,reg=0x0c
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x18060604) for device 'dec21150' at pc=0x601ede78: bus=0,device=8,function=0,reg=0x18
+Nov 05 09:43:18.503 PCI: PCI bridge 0,8,0 -> pri: 04, sec: 06, sub: 06
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x18060604) for device 'dec21150' at pc=0x601ede84: bus=0,device=8,function=0,reg=0x18
+Nov 05 09:43:18.503 PCI: PCI bridge 0,8,0 -> pri: 04, sec: 06, sub: 06
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x02807f60) for device 'dec21150' at pc=0x601ede78: bus=0,device=8,function=0,reg=0x1c
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x02807f60) for device 'dec21150' at pc=0x601ede84: bus=0,device=8,function=0,reg=0x1c
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x49704900) for device 'dec21150' at pc=0x601ede78: bus=0,device=8,function=0,reg=0x20
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x49704900) for device 'dec21150' at pc=0x601ede84: bus=0,device=8,function=0,reg=0x20
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x0001ff01) for device 'dec21150' at pc=0x601ede78: bus=0,device=8,function=0,reg=0x24
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x0001ff01) for device 'dec21150' at pc=0x601ede84: bus=0,device=8,function=0,reg=0x24
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x00000000) for device 'dec21150' at pc=0x601ede78: bus=0,device=8,function=0,reg=0x30
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x00000000) for device 'dec21150' at pc=0x601ede84: bus=0,device=8,function=0,reg=0x30
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x03030000) for device 'dec21150' at pc=0x601ede78: bus=0,device=8,function=0,reg=0x3c
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x03030000) for device 'dec21150' at pc=0x601ede84: bus=0,device=8,function=0,reg=0x3c
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x02000000) for device 'dec21150' at pc=0x601ede78: bus=0,device=8,function=0,reg=0x40
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x02000000) for device 'dec21150' at pc=0x601ede84: bus=0,device=8,function=0,reg=0x40
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x00000000) for device 'dec21150' at pc=0x601ede78: bus=0,device=8,function=0,reg=0x64
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x00000000) for device 'dec21150' at pc=0x601ede84: bus=0,device=8,function=0,reg=0x64
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x000001ff) for device 'dec21150' at pc=0x601ede78: bus=0,device=8,function=0,reg=0x68
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x000001ff) for device 'dec21150' at pc=0x601ede84: bus=0,device=8,function=0,reg=0x68
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x00000147) for device 'dec21150' at pc=0x601ede78: bus=0,device=8,function=0,reg=0x04
+Nov 05 09:43:18.503 CPU0: PCI: write request (data=0x00000147) for device 'dec21150' at pc=0x601ede84: bus=0,device=8,function=0,reg=0x04
+Nov 05 09:43:18.550 CPU0: PCI: read request for device 'C7200-IO-FE(0)' at pc=0x601edfbc: bus=1,device=0,function=0,reg=0x00
+Nov 05 09:43:18.550 CPU0: PCI: read request for device 'C7200-IO-FE(0)' at pc=0x601edfc0: bus=1,device=0,function=0,reg=0x00
+Nov 05 09:43:18.550 CPU0: PCI: write request (data=0x00000006) for device 'C7200-IO-FE(0)' at pc=0x601ede78: bus=1,device=0,function=0,reg=0x04
+Nov 05 09:43:18.550 CPU0: PCI: write request (data=0x00000006) for device 'C7200-IO-FE(0)' at pc=0x601ede84: bus=1,device=0,function=0,reg=0x04
+Nov 05 09:43:18.550 CPU0: PCI: write request (data=0x480c0000) for device 'C7200-IO-FE(0)' at pc=0x601ede78: bus=1,device=0,function=0,reg=0x14
+Nov 05 09:43:18.550 C7200-IO-FE(0): registers are mapped at 0x480c0000
+Nov 05 09:43:18.550 CPU0: PCI: write request (data=0x480c0000) for device 'C7200-IO-FE(0)' at pc=0x601ede84: bus=1,device=0,function=0,reg=0x14
+Nov 05 09:43:18.550 C7200-IO-FE(0): registers are mapped at 0x480c0000
+Nov 05 09:43:18.550 CPU0: PCI: write request (data=0x0000ff00) for device 'C7200-IO-FE(0)' at pc=0x601ede78: bus=1,device=0,function=0,reg=0x0c
+Nov 05 09:43:18.550 CPU0: PCI: write request (data=0x0000ff00) for device 'C7200-IO-FE(0)' at pc=0x601ede84: bus=1,device=0,function=0,reg=0x0c
+Nov 05 09:43:18.556 CPU0: PCI: read request for device 'C7200-IO-FE(0)' at pc=0x601edfbc: bus=1,device=0,function=0,reg=0x08
+Nov 05 09:43:18.556 CPU0: PCI: read request for device 'C7200-IO-FE(0)' at pc=0x601edfc0: bus=1,device=0,function=0,reg=0x08
+Nov 05 09:43:18.557 CPU0: PCI: read request for device 'PA-8T(1)' at pc=0x601edfbc: bus=5,device=0,function=0,reg=0x00
+Nov 05 09:43:18.557 CPU0: PCI: read request for device 'PA-8T(1)' at pc=0x601edfc0: bus=5,device=0,function=0,reg=0x00
+Nov 05 09:43:18.557 CPU0: PCI: read request for device 'PA-8T(1)' at pc=0x601edfbc: bus=5,device=0,function=0,reg=0x00
+Nov 05 09:43:18.557 CPU0: PCI: read request for device 'PA-8T(1)' at pc=0x601edfc0: bus=5,device=0,function=0,reg=0x00
+Nov 05 09:43:18.557 CPU0: PCI: write request (data=0x48800000) for device 'PA-8T(1)' at pc=0x601ede78: bus=5,device=0,function=0,reg=0x10
+Nov 05 09:43:18.557 PA-8T(1): registers are mapped at 0x48800000
+Nov 05 09:43:18.557 CPU0: PCI: write request (data=0x48800000) for device 'PA-8T(1)' at pc=0x601ede84: bus=5,device=0,function=0,reg=0x10
+Nov 05 09:43:18.557 PA-8T(1): registers are mapped at 0x48800000
+Nov 05 09:43:18.557 CPU0: PCI: write request (data=0x48802000) for device 'PA-8T(1)' at pc=0x601ede78: bus=5,device=0,function=0,reg=0x14
+Nov 05 09:43:18.557 CPU0: PCI: write request (data=0x48802000) for device 'PA-8T(1)' at pc=0x601ede84: bus=5,device=0,function=0,reg=0x14
+Nov 05 09:43:18.557 CPU0: PCI: write request (data=0x00000008) for device 'PA-8T(1)' at pc=0x601ede78: bus=5,device=0,function=0,reg=0x40
+Nov 05 09:43:18.557 CPU0: PCI: write request (data=0x00000008) for device 'PA-8T(1)' at pc=0x601ede84: bus=5,device=0,function=0,reg=0x40
+Nov 05 09:43:18.557 CPU0: PCI: write request (data=0x0000f800) for device 'PA-8T(1)' at pc=0x601ede78: bus=5,device=0,function=0,reg=0x0c
+Nov 05 09:43:18.557 CPU0: PCI: write request (data=0x0000f800) for device 'PA-8T(1)' at pc=0x601ede84: bus=5,device=0,function=0,reg=0x0c
+Nov 05 09:43:18.557 CPU0: PCI: write request (data=0x00000006) for device 'PA-8T(1)' at pc=0x601ede78: bus=5,device=0,function=0,reg=0x04
+Nov 05 09:43:18.557 CPU0: PCI: write request (data=0x00000006) for device 'PA-8T(1)' at pc=0x601ede84: bus=5,device=0,function=0,reg=0x04
+Nov 05 09:43:18.557 CPU0: PCI: read request for device 'PA-8T(1)' at pc=0x601edfbc: bus=5,device=0,function=0,reg=0x08
+Nov 05 09:43:18.557 CPU0: PCI: read request for device 'PA-8T(1)' at pc=0x601edfc0: bus=5,device=0,function=0,reg=0x08
+Nov 05 09:43:18.557 PA-8T(1): channel 0: unknown value for CRC ctrl reg 0x0600
+Nov 05 09:43:18.557 PA-8T(1): channel 0: CRC size set to 0x0002
+Nov 05 09:43:18.557 CPU0: PCI: write request (data=0x0000f800) for device 'PA-8T(1)' at pc=0x601ede78: bus=5,device=0,function=0,reg=0x0c
+Nov 05 09:43:18.557 CPU0: PCI: write request (data=0x0000f800) for device 'PA-8T(1)' at pc=0x601ede84: bus=5,device=0,function=0,reg=0x0c
+Nov 05 09:43:18.557 PA-8T(1): channel 0: unknown value for CRC ctrl reg 0x0000
+Nov 05 09:43:18.557 PA-8T(1): channel 0: CRC size set to 0x0002
+Nov 05 09:43:18.557 CPU0: PCI: read request for device 'PA-8T(1)' at pc=0x601edfbc: bus=5,device=1,function=0,reg=0x00
+Nov 05 09:43:18.557 CPU0: PCI: read request for device 'PA-8T(1)' at pc=0x601edfc0: bus=5,device=1,function=0,reg=0x00
+Nov 05 09:43:18.557 CPU0: PCI: read request for device 'PA-8T(1)' at pc=0x601edfbc: bus=5,device=1,function=0,reg=0x00
+Nov 05 09:43:18.557 CPU0: PCI: read request for device 'PA-8T(1)' at pc=0x601edfc0: bus=5,device=1,function=0,reg=0x00
+Nov 05 09:43:18.557 CPU0: PCI: write request (data=0x48820000) for device 'PA-8T(1)' at pc=0x601ede78: bus=5,device=1,function=0,reg=0x10
+Nov 05 09:43:18.557 PA-8T(1): registers are mapped at 0x48820000
+Nov 05 09:43:18.557 CPU0: PCI: write request (data=0x48820000) for device 'PA-8T(1)' at pc=0x601ede84: bus=5,device=1,function=0,reg=0x10
+Nov 05 09:43:18.557 PA-8T(1): registers are mapped at 0x48820000
+Nov 05 09:43:18.557 CPU0: PCI: write request (data=0x48822000) for device 'PA-8T(1)' at pc=0x601ede78: bus=5,device=1,function=0,reg=0x14
+Nov 05 09:43:18.557 CPU0: PCI: write request (data=0x48822000) for device 'PA-8T(1)' at pc=0x601ede84: bus=5,device=1,function=0,reg=0x14
+Nov 05 09:43:18.557 CPU0: PCI: write request (data=0x00000008) for device 'PA-8T(1)' at pc=0x601ede78: bus=5,device=1,function=0,reg=0x40
+Nov 05 09:43:18.557 CPU0: PCI: write request (data=0x00000008) for device 'PA-8T(1)' at pc=0x601ede84: bus=5,device=1,function=0,reg=0x40
+Nov 05 09:43:18.557 CPU0: PCI: write request (data=0x0000f800) for device 'PA-8T(1)' at pc=0x601ede78: bus=5,device=1,function=0,reg=0x0c
+Nov 05 09:43:18.557 CPU0: PCI: write request (data=0x0000f800) for device 'PA-8T(1)' at pc=0x601ede84: bus=5,device=1,function=0,reg=0x0c
+Nov 05 09:43:18.557 CPU0: PCI: write request (data=0x00000006) for device 'PA-8T(1)' at pc=0x601ede78: bus=5,device=1,function=0,reg=0x04
+Nov 05 09:43:18.557 CPU0: PCI: write request (data=0x00000006) for device 'PA-8T(1)' at pc=0x601ede84: bus=5,device=1,function=0,reg=0x04
+Nov 05 09:43:18.557 CPU0: PCI: read request for device 'PA-8T(1)' at pc=0x601edfbc: bus=5,device=1,function=0,reg=0x08
+Nov 05 09:43:18.557 CPU0: PCI: read request for device 'PA-8T(1)' at pc=0x601edfc0: bus=5,device=1,function=0,reg=0x08
+Nov 05 09:43:18.557 PA-8T(1): channel 0: unknown value for CRC ctrl reg 0x0600
+Nov 05 09:43:18.557 PA-8T(1): channel 0: CRC size set to 0x0002
+Nov 05 09:43:18.557 CPU0: PCI: write request (data=0x0000f800) for device 'PA-8T(1)' at pc=0x601ede78: bus=5,device=1,function=0,reg=0x0c
+Nov 05 09:43:18.557 CPU0: PCI: write request (data=0x0000f800) for device 'PA-8T(1)' at pc=0x601ede84: bus=5,device=1,function=0,reg=0x0c
+Nov 05 09:43:18.557 PA-8T(1): channel 0: unknown value for CRC ctrl reg 0x0000
+Nov 05 09:43:18.557 PA-8T(1): channel 0: CRC size set to 0x0002
+Nov 05 09:43:18.560 PA-8T(1): channel 0 disabled
+Nov 05 09:43:18.561 PA-8T(1): channel 0 disabled
+Nov 05 09:43:18.561 PA-8T(1): channel 0: CRC size set to 0x0002
+Nov 05 09:43:18.561 PA-8T(1): channel 0: clock rate set to 2016000
+Nov 05 09:43:18.561 PA-8T(1): channel 0 enabled
+Nov 05 09:43:18.561 PA-8T(1): channel 1 disabled
+Nov 05 09:43:18.562 PA-8T(1): channel 1 disabled
+Nov 05 09:43:18.562 PA-8T(1): channel 1: CRC size set to 0x0002
+Nov 05 09:43:18.562 PA-8T(1): channel 1: clock rate set to 2016000
+Nov 05 09:43:18.562 PA-8T(1): channel 1 enabled
+Nov 05 09:43:18.562 PA-8T(1): channel 2 disabled
+Nov 05 09:43:18.562 PA-8T(1): channel 2 disabled
+Nov 05 09:43:18.562 PA-8T(1): channel 2: CRC size set to 0x0002
+Nov 05 09:43:18.562 PA-8T(1): channel 2: clock rate set to 2016000
+Nov 05 09:43:18.562 PA-8T(1): channel 2 enabled
+Nov 05 09:43:18.563 PA-8T(1): channel 3 disabled
+Nov 05 09:43:18.563 PA-8T(1): channel 3 disabled
+Nov 05 09:43:18.563 PA-8T(1): channel 3: CRC size set to 0x0002
+Nov 05 09:43:18.563 PA-8T(1): channel 3: clock rate set to 2016000
+Nov 05 09:43:18.563 PA-8T(1): channel 3 enabled
+Nov 05 09:43:18.564 PA-8T(1): channel 0 disabled
+Nov 05 09:43:18.564 PA-8T(1): channel 0 disabled
+Nov 05 09:43:18.564 PA-8T(1): channel 0: CRC size set to 0x0002
+Nov 05 09:43:18.564 PA-8T(1): channel 0: clock rate set to 2016000
+Nov 05 09:43:18.564 PA-8T(1): channel 0 enabled
+Nov 05 09:43:18.564 PA-8T(1): channel 1 disabled
+Nov 05 09:43:18.564 PA-8T(1): channel 1 disabled
+Nov 05 09:43:18.565 PA-8T(1): channel 1: CRC size set to 0x0002
+Nov 05 09:43:18.565 PA-8T(1): channel 1: clock rate set to 2016000
+Nov 05 09:43:18.565 PA-8T(1): channel 1 enabled
+Nov 05 09:43:18.565 PA-8T(1): channel 2 disabled
+Nov 05 09:43:18.565 PA-8T(1): channel 2 disabled
+Nov 05 09:43:18.565 PA-8T(1): channel 2: CRC size set to 0x0002
+Nov 05 09:43:18.565 PA-8T(1): channel 2: clock rate set to 2016000
+Nov 05 09:43:18.565 PA-8T(1): channel 2 enabled
+Nov 05 09:43:18.565 PA-8T(1): channel 3 disabled
+Nov 05 09:43:18.566 PA-8T(1): channel 3 disabled
+Nov 05 09:43:18.566 PA-8T(1): channel 3: CRC size set to 0x0002
+Nov 05 09:43:18.566 PA-8T(1): channel 3: clock rate set to 2016000
+Nov 05 09:43:18.566 PA-8T(1): channel 3 enabled
+Nov 05 09:43:18.566 CPU0: PCI: read request for device 'PA-4E(2)' at pc=0x601edfcc: bus=11,device=0,function=0,reg=0x00
+Nov 05 09:43:18.566 CPU0: PCI: read request for device 'PA-4E(2)' at pc=0x601edfd0: bus=11,device=0,function=0,reg=0x00
+Nov 05 09:43:18.566 CPU0: PCI: read request for device 'PA-4E(2)' at pc=0x601edfcc: bus=11,device=0,function=0,reg=0x00
+Nov 05 09:43:18.566 CPU0: PCI: read request for device 'PA-4E(2)' at pc=0x601edfd0: bus=11,device=0,function=0,reg=0x00
+Nov 05 09:43:18.566 CPU0: PCI: write request (data=0x4d000000) for device 'PA-4E(2)' at pc=0x601ede98: bus=11,device=0,function=0,reg=0x14
+Nov 05 09:43:18.566 PA-4E(2): registers are mapped at 0x4d000000
+Nov 05 09:43:18.566 CPU0: PCI: write request (data=0x4d000000) for device 'PA-4E(2)' at pc=0x601edea4: bus=11,device=0,function=0,reg=0x14
+Nov 05 09:43:18.566 PA-4E(2): registers are mapped at 0x4d000000
+Nov 05 09:43:18.566 CPU0: PCI: write request (data=0x00000006) for device 'PA-4E(2)' at pc=0x601ede98: bus=11,device=0,function=0,reg=0x04
+Nov 05 09:43:18.566 CPU0: PCI: write request (data=0x00000006) for device 'PA-4E(2)' at pc=0x601edea4: bus=11,device=0,function=0,reg=0x04
+Nov 05 09:43:18.566 CPU0: PCI: write request (data=0x0000ff00) for device 'PA-4E(2)' at pc=0x601ede98: bus=11,device=0,function=0,reg=0x0c
+Nov 05 09:43:18.566 CPU0: PCI: write request (data=0x0000ff00) for device 'PA-4E(2)' at pc=0x601edea4: bus=11,device=0,function=0,reg=0x0c
+Nov 05 09:43:18.566 CPU0: PCI: read request for device 'PA-4E(2)' at pc=0x601edfcc: bus=11,device=0,function=0,reg=0x00
+Nov 05 09:43:18.566 CPU0: PCI: read request for device 'PA-4E(2)' at pc=0x601edfd0: bus=11,device=0,function=0,reg=0x00
+Nov 05 09:43:18.568 PA-4E(2): fetching init block at address 0x0e204760
+Nov 05 09:43:18.568 PA-4E(2): rx_ring = 0x0e2047c0 (64), tx_ring = 0x0e204c00 (128)
+Nov 05 09:43:18.568 PA-4E(2): CSR0 = 0x0101
+Nov 05 09:43:18.568 CPU0: PCI: read request for device 'PA-4E(2)' at pc=0x601edfcc: bus=11,device=1,function=0,reg=0x00
+Nov 05 09:43:18.568 CPU0: PCI: read request for device 'PA-4E(2)' at pc=0x601edfd0: bus=11,device=1,function=0,reg=0x00
+Nov 05 09:43:18.568 CPU0: PCI: read request for device 'PA-4E(2)' at pc=0x601edfcc: bus=11,device=1,function=0,reg=0x00
+Nov 05 09:43:18.568 CPU0: PCI: read request for device 'PA-4E(2)' at pc=0x601edfd0: bus=11,device=1,function=0,reg=0x00
+Nov 05 09:43:18.568 CPU0: PCI: write request (data=0x4d020000) for device 'PA-4E(2)' at pc=0x601ede98: bus=11,device=1,function=0,reg=0x14
+Nov 05 09:43:18.568 PA-4E(2): registers are mapped at 0x4d020000
+Nov 05 09:43:18.568 CPU0: PCI: write request (data=0x4d020000) for device 'PA-4E(2)' at pc=0x601edea4: bus=11,device=1,function=0,reg=0x14
+Nov 05 09:43:18.568 PA-4E(2): registers are mapped at 0x4d020000
+Nov 05 09:43:18.568 CPU0: PCI: write request (data=0x00000006) for device 'PA-4E(2)' at pc=0x601ede98: bus=11,device=1,function=0,reg=0x04
+Nov 05 09:43:18.568 CPU0: PCI: write request (data=0x00000006) for device 'PA-4E(2)' at pc=0x601edea4: bus=11,device=1,function=0,reg=0x04
+Nov 05 09:43:18.568 CPU0: PCI: write request (data=0x0000ff00) for device 'PA-4E(2)' at pc=0x601ede98: bus=11,device=1,function=0,reg=0x0c
+Nov 05 09:43:18.568 CPU0: PCI: write request (data=0x0000ff00) for device 'PA-4E(2)' at pc=0x601edea4: bus=11,device=1,function=0,reg=0x0c
+Nov 05 09:43:18.568 CPU0: PCI: read request for device 'PA-4E(2)' at pc=0x601edfcc: bus=11,device=1,function=0,reg=0x00
+Nov 05 09:43:18.568 CPU0: PCI: read request for device 'PA-4E(2)' at pc=0x601edfd0: bus=11,device=1,function=0,reg=0x00
+Nov 05 09:43:18.569 PA-4E(2): fetching init block at address 0x0e218480
+Nov 05 09:43:18.569 PA-4E(2): rx_ring = 0x0e2184e0 (64), tx_ring = 0x0e218920 (128)
+Nov 05 09:43:18.569 PA-4E(2): CSR0 = 0x0101
+Nov 05 09:43:18.569 CPU0: PCI: read request for device 'PA-4E(2)' at pc=0x601edfcc: bus=11,device=2,function=0,reg=0x00
+Nov 05 09:43:18.569 CPU0: PCI: read request for device 'PA-4E(2)' at pc=0x601edfd0: bus=11,device=2,function=0,reg=0x00
+Nov 05 09:43:18.569 CPU0: PCI: read request for device 'PA-4E(2)' at pc=0x601edfcc: bus=11,device=2,function=0,reg=0x00
+Nov 05 09:43:18.569 CPU0: PCI: read request for device 'PA-4E(2)' at pc=0x601edfd0: bus=11,device=2,function=0,reg=0x00
+Nov 05 09:43:18.569 CPU0: PCI: write request (data=0x4d040000) for device 'PA-4E(2)' at pc=0x601ede98: bus=11,device=2,function=0,reg=0x14
+Nov 05 09:43:18.569 PA-4E(2): registers are mapped at 0x4d040000
+Nov 05 09:43:18.569 CPU0: PCI: write request (data=0x4d040000) for device 'PA-4E(2)' at pc=0x601edea4: bus=11,device=2,function=0,reg=0x14
+Nov 05 09:43:18.569 PA-4E(2): registers are mapped at 0x4d040000
+Nov 05 09:43:18.569 CPU0: PCI: write request (data=0x00000006) for device 'PA-4E(2)' at pc=0x601ede98: bus=11,device=2,function=0,reg=0x04
+Nov 05 09:43:18.569 CPU0: PCI: write request (data=0x00000006) for device 'PA-4E(2)' at pc=0x601edea4: bus=11,device=2,function=0,reg=0x04
+Nov 05 09:43:18.569 CPU0: PCI: write request (data=0x0000ff00) for device 'PA-4E(2)' at pc=0x601ede98: bus=11,device=2,function=0,reg=0x0c
+Nov 05 09:43:18.569 CPU0: PCI: write request (data=0x0000ff00) for device 'PA-4E(2)' at pc=0x601edea4: bus=11,device=2,function=0,reg=0x0c
+Nov 05 09:43:18.569 CPU0: PCI: read request for device 'PA-4E(2)' at pc=0x601edfcc: bus=11,device=2,function=0,reg=0x00
+Nov 05 09:43:18.569 CPU0: PCI: read request for device 'PA-4E(2)' at pc=0x601edfd0: bus=11,device=2,function=0,reg=0x00
+Nov 05 09:43:18.570 PA-4E(2): fetching init block at address 0x0e22c1a0
+Nov 05 09:43:18.570 PA-4E(2): rx_ring = 0x0e22c200 (64), tx_ring = 0x0e22c640 (128)
+Nov 05 09:43:18.570 PA-4E(2): CSR0 = 0x0101
+Nov 05 09:43:18.570 CPU0: PCI: read request for device 'PA-4E(2)' at pc=0x601edfcc: bus=11,device=3,function=0,reg=0x00
+Nov 05 09:43:18.570 CPU0: PCI: read request for device 'PA-4E(2)' at pc=0x601edfd0: bus=11,device=3,function=0,reg=0x00
+Nov 05 09:43:18.570 CPU0: PCI: read request for device 'PA-4E(2)' at pc=0x601edfcc: bus=11,device=3,function=0,reg=0x00
+Nov 05 09:43:18.570 CPU0: PCI: read request for device 'PA-4E(2)' at pc=0x601edfd0: bus=11,device=3,function=0,reg=0x00
+Nov 05 09:43:18.570 CPU0: PCI: write request (data=0x4d060000) for device 'PA-4E(2)' at pc=0x601ede98: bus=11,device=3,function=0,reg=0x14
+Nov 05 09:43:18.570 PA-4E(2): registers are mapped at 0x4d060000
+Nov 05 09:43:18.570 CPU0: PCI: write request (data=0x4d060000) for device 'PA-4E(2)' at pc=0x601edea4: bus=11,device=3,function=0,reg=0x14
+Nov 05 09:43:18.570 PA-4E(2): registers are mapped at 0x4d060000
+Nov 05 09:43:18.570 CPU0: PCI: write request (data=0x00000006) for device 'PA-4E(2)' at pc=0x601ede98: bus=11,device=3,function=0,reg=0x04
+Nov 05 09:43:18.570 CPU0: PCI: write request (data=0x00000006) for device 'PA-4E(2)' at pc=0x601edea4: bus=11,device=3,function=0,reg=0x04
+Nov 05 09:43:18.570 CPU0: PCI: write request (data=0x0000ff00) for device 'PA-4E(2)' at pc=0x601ede98: bus=11,device=3,function=0,reg=0x0c
+Nov 05 09:43:18.570 CPU0: PCI: write request (data=0x0000ff00) for device 'PA-4E(2)' at pc=0x601edea4: bus=11,device=3,function=0,reg=0x0c
+Nov 05 09:43:18.570 CPU0: PCI: read request for device 'PA-4E(2)' at pc=0x601edfcc: bus=11,device=3,function=0,reg=0x00
+Nov 05 09:43:18.571 CPU0: PCI: read request for device 'PA-4E(2)' at pc=0x601edfd0: bus=11,device=3,function=0,reg=0x00
+Nov 05 09:43:18.572 PA-4E(2): fetching init block at address 0x0e23fec0
+Nov 05 09:43:18.572 PA-4E(2): rx_ring = 0x0e23ff20 (64), tx_ring = 0x0e240360 (128)
+Nov 05 09:43:18.572 PA-4E(2): CSR0 = 0x0101
+Nov 05 09:43:18.572 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfbc: bus=6,device=0,function=0,reg=0x00
+Nov 05 09:43:18.572 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfc0: bus=6,device=0,function=0,reg=0x00
+Nov 05 09:43:18.572 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfbc: bus=6,device=0,function=0,reg=0x00
+Nov 05 09:43:18.572 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfc0: bus=6,device=0,function=0,reg=0x00
+Nov 05 09:43:18.572 CPU0: PCI: write request (data=0x49000000) for device 'PA-8E(3)' at pc=0x601ede78: bus=6,device=0,function=0,reg=0x14
+Nov 05 09:43:18.572 PA-8E(3): registers are mapped at 0x49000000
+Nov 05 09:43:18.572 CPU0: PCI: write request (data=0x49000000) for device 'PA-8E(3)' at pc=0x601ede84: bus=6,device=0,function=0,reg=0x14
+Nov 05 09:43:18.572 PA-8E(3): registers are mapped at 0x49000000
+Nov 05 09:43:18.572 CPU0: PCI: write request (data=0x00000006) for device 'PA-8E(3)' at pc=0x601ede78: bus=6,device=0,function=0,reg=0x04
+Nov 05 09:43:18.572 CPU0: PCI: write request (data=0x00000006) for device 'PA-8E(3)' at pc=0x601ede84: bus=6,device=0,function=0,reg=0x04
+Nov 05 09:43:18.572 CPU0: PCI: write request (data=0x0000ff00) for device 'PA-8E(3)' at pc=0x601ede78: bus=6,device=0,function=0,reg=0x0c
+Nov 05 09:43:18.572 CPU0: PCI: write request (data=0x0000ff00) for device 'PA-8E(3)' at pc=0x601ede84: bus=6,device=0,function=0,reg=0x0c
+Nov 05 09:43:18.572 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfbc: bus=6,device=0,function=0,reg=0x00
+Nov 05 09:43:18.572 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfc0: bus=6,device=0,function=0,reg=0x00
+Nov 05 09:43:18.573 PA-8E(3): fetching init block at address 0x0e253be0
+Nov 05 09:43:18.573 PA-8E(3): rx_ring = 0x0e253c40 (64), tx_ring = 0x0e254080 (128)
+Nov 05 09:43:18.573 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.573 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfbc: bus=6,device=1,function=0,reg=0x00
+Nov 05 09:43:18.573 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfc0: bus=6,device=1,function=0,reg=0x00
+Nov 05 09:43:18.573 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfbc: bus=6,device=1,function=0,reg=0x00
+Nov 05 09:43:18.573 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfc0: bus=6,device=1,function=0,reg=0x00
+Nov 05 09:43:18.573 CPU0: PCI: write request (data=0x49020000) for device 'PA-8E(3)' at pc=0x601ede78: bus=6,device=1,function=0,reg=0x14
+Nov 05 09:43:18.573 PA-8E(3): registers are mapped at 0x49020000
+Nov 05 09:43:18.573 CPU0: PCI: write request (data=0x49020000) for device 'PA-8E(3)' at pc=0x601ede84: bus=6,device=1,function=0,reg=0x14
+Nov 05 09:43:18.573 PA-8E(3): registers are mapped at 0x49020000
+Nov 05 09:43:18.573 CPU0: PCI: write request (data=0x00000006) for device 'PA-8E(3)' at pc=0x601ede78: bus=6,device=1,function=0,reg=0x04
+Nov 05 09:43:18.573 CPU0: PCI: write request (data=0x00000006) for device 'PA-8E(3)' at pc=0x601ede84: bus=6,device=1,function=0,reg=0x04
+Nov 05 09:43:18.573 CPU0: PCI: write request (data=0x0000ff00) for device 'PA-8E(3)' at pc=0x601ede78: bus=6,device=1,function=0,reg=0x0c
+Nov 05 09:43:18.573 CPU0: PCI: write request (data=0x0000ff00) for device 'PA-8E(3)' at pc=0x601ede84: bus=6,device=1,function=0,reg=0x0c
+Nov 05 09:43:18.573 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfbc: bus=6,device=1,function=0,reg=0x00
+Nov 05 09:43:18.573 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfc0: bus=6,device=1,function=0,reg=0x00
+Nov 05 09:43:18.573 PA-8E(3): fetching init block at address 0x0e267900
+Nov 05 09:43:18.573 PA-8E(3): rx_ring = 0x0e267960 (64), tx_ring = 0x0e267da0 (128)
+Nov 05 09:43:18.573 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.574 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfbc: bus=6,device=2,function=0,reg=0x00
+Nov 05 09:43:18.574 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfc0: bus=6,device=2,function=0,reg=0x00
+Nov 05 09:43:18.574 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfbc: bus=6,device=2,function=0,reg=0x00
+Nov 05 09:43:18.574 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfc0: bus=6,device=2,function=0,reg=0x00
+Nov 05 09:43:18.574 CPU0: PCI: write request (data=0x49040000) for device 'PA-8E(3)' at pc=0x601ede78: bus=6,device=2,function=0,reg=0x14
+Nov 05 09:43:18.574 PA-8E(3): registers are mapped at 0x49040000
+Nov 05 09:43:18.574 CPU0: PCI: write request (data=0x49040000) for device 'PA-8E(3)' at pc=0x601ede84: bus=6,device=2,function=0,reg=0x14
+Nov 05 09:43:18.574 PA-8E(3): registers are mapped at 0x49040000
+Nov 05 09:43:18.574 CPU0: PCI: write request (data=0x00000006) for device 'PA-8E(3)' at pc=0x601ede78: bus=6,device=2,function=0,reg=0x04
+Nov 05 09:43:18.574 CPU0: PCI: write request (data=0x00000006) for device 'PA-8E(3)' at pc=0x601ede84: bus=6,device=2,function=0,reg=0x04
+Nov 05 09:43:18.574 CPU0: PCI: write request (data=0x0000ff00) for device 'PA-8E(3)' at pc=0x601ede78: bus=6,device=2,function=0,reg=0x0c
+Nov 05 09:43:18.574 CPU0: PCI: write request (data=0x0000ff00) for device 'PA-8E(3)' at pc=0x601ede84: bus=6,device=2,function=0,reg=0x0c
+Nov 05 09:43:18.574 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfbc: bus=6,device=2,function=0,reg=0x00
+Nov 05 09:43:18.574 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfc0: bus=6,device=2,function=0,reg=0x00
+Nov 05 09:43:18.575 PA-8E(3): fetching init block at address 0x0e27b620
+Nov 05 09:43:18.575 PA-8E(3): rx_ring = 0x0e27b680 (64), tx_ring = 0x0e27bac0 (128)
+Nov 05 09:43:18.575 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.575 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfbc: bus=6,device=3,function=0,reg=0x00
+Nov 05 09:43:18.575 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfc0: bus=6,device=3,function=0,reg=0x00
+Nov 05 09:43:18.575 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfbc: bus=6,device=3,function=0,reg=0x00
+Nov 05 09:43:18.575 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfc0: bus=6,device=3,function=0,reg=0x00
+Nov 05 09:43:18.575 CPU0: PCI: write request (data=0x49060000) for device 'PA-8E(3)' at pc=0x601ede78: bus=6,device=3,function=0,reg=0x14
+Nov 05 09:43:18.575 PA-8E(3): registers are mapped at 0x49060000
+Nov 05 09:43:18.575 CPU0: PCI: write request (data=0x49060000) for device 'PA-8E(3)' at pc=0x601ede84: bus=6,device=3,function=0,reg=0x14
+Nov 05 09:43:18.575 PA-8E(3): registers are mapped at 0x49060000
+Nov 05 09:43:18.575 CPU0: PCI: write request (data=0x00000006) for device 'PA-8E(3)' at pc=0x601ede78: bus=6,device=3,function=0,reg=0x04
+Nov 05 09:43:18.575 CPU0: PCI: write request (data=0x00000006) for device 'PA-8E(3)' at pc=0x601ede84: bus=6,device=3,function=0,reg=0x04
+Nov 05 09:43:18.575 CPU0: PCI: write request (data=0x0000ff00) for device 'PA-8E(3)' at pc=0x601ede78: bus=6,device=3,function=0,reg=0x0c
+Nov 05 09:43:18.575 CPU0: PCI: write request (data=0x0000ff00) for device 'PA-8E(3)' at pc=0x601ede84: bus=6,device=3,function=0,reg=0x0c
+Nov 05 09:43:18.575 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfbc: bus=6,device=3,function=0,reg=0x00
+Nov 05 09:43:18.575 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfc0: bus=6,device=3,function=0,reg=0x00
+Nov 05 09:43:18.577 PA-8E(3): fetching init block at address 0x0e28f340
+Nov 05 09:43:18.577 PA-8E(3): rx_ring = 0x0e28f3a0 (64), tx_ring = 0x0e28f7e0 (128)
+Nov 05 09:43:18.577 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.577 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfbc: bus=6,device=4,function=0,reg=0x00
+Nov 05 09:43:18.577 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfc0: bus=6,device=4,function=0,reg=0x00
+Nov 05 09:43:18.577 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfbc: bus=6,device=4,function=0,reg=0x00
+Nov 05 09:43:18.577 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfc0: bus=6,device=4,function=0,reg=0x00
+Nov 05 09:43:18.577 CPU0: PCI: write request (data=0x49080000) for device 'PA-8E(3)' at pc=0x601ede78: bus=6,device=4,function=0,reg=0x14
+Nov 05 09:43:18.577 PA-8E(3): registers are mapped at 0x49080000
+Nov 05 09:43:18.577 CPU0: PCI: write request (data=0x49080000) for device 'PA-8E(3)' at pc=0x601ede84: bus=6,device=4,function=0,reg=0x14
+Nov 05 09:43:18.577 PA-8E(3): registers are mapped at 0x49080000
+Nov 05 09:43:18.577 CPU0: PCI: write request (data=0x00000006) for device 'PA-8E(3)' at pc=0x601ede78: bus=6,device=4,function=0,reg=0x04
+Nov 05 09:43:18.577 CPU0: PCI: write request (data=0x00000006) for device 'PA-8E(3)' at pc=0x601ede84: bus=6,device=4,function=0,reg=0x04
+Nov 05 09:43:18.577 CPU0: PCI: write request (data=0x0000ff00) for device 'PA-8E(3)' at pc=0x601ede78: bus=6,device=4,function=0,reg=0x0c
+Nov 05 09:43:18.577 CPU0: PCI: write request (data=0x0000ff00) for device 'PA-8E(3)' at pc=0x601ede84: bus=6,device=4,function=0,reg=0x0c
+Nov 05 09:43:18.577 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfbc: bus=6,device=4,function=0,reg=0x00
+Nov 05 09:43:18.577 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfc0: bus=6,device=4,function=0,reg=0x00
+Nov 05 09:43:18.578 PA-8E(3): fetching init block at address 0x0e2a3060
+Nov 05 09:43:18.578 PA-8E(3): rx_ring = 0x0e2a30c0 (64), tx_ring = 0x0e2a3500 (128)
+Nov 05 09:43:18.578 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.578 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfbc: bus=6,device=5,function=0,reg=0x00
+Nov 05 09:43:18.578 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfc0: bus=6,device=5,function=0,reg=0x00
+Nov 05 09:43:18.578 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfbc: bus=6,device=5,function=0,reg=0x00
+Nov 05 09:43:18.578 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfc0: bus=6,device=5,function=0,reg=0x00
+Nov 05 09:43:18.578 CPU0: PCI: write request (data=0x490a0000) for device 'PA-8E(3)' at pc=0x601ede78: bus=6,device=5,function=0,reg=0x14
+Nov 05 09:43:18.578 PA-8E(3): registers are mapped at 0x490a0000
+Nov 05 09:43:18.578 CPU0: PCI: write request (data=0x490a0000) for device 'PA-8E(3)' at pc=0x601ede84: bus=6,device=5,function=0,reg=0x14
+Nov 05 09:43:18.578 PA-8E(3): registers are mapped at 0x490a0000
+Nov 05 09:43:18.578 CPU0: PCI: write request (data=0x00000006) for device 'PA-8E(3)' at pc=0x601ede78: bus=6,device=5,function=0,reg=0x04
+Nov 05 09:43:18.578 CPU0: PCI: write request (data=0x00000006) for device 'PA-8E(3)' at pc=0x601ede84: bus=6,device=5,function=0,reg=0x04
+Nov 05 09:43:18.578 CPU0: PCI: write request (data=0x0000ff00) for device 'PA-8E(3)' at pc=0x601ede78: bus=6,device=5,function=0,reg=0x0c
+Nov 05 09:43:18.578 CPU0: PCI: write request (data=0x0000ff00) for device 'PA-8E(3)' at pc=0x601ede84: bus=6,device=5,function=0,reg=0x0c
+Nov 05 09:43:18.578 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfbc: bus=6,device=5,function=0,reg=0x00
+Nov 05 09:43:18.578 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfc0: bus=6,device=5,function=0,reg=0x00
+Nov 05 09:43:18.579 PA-8E(3): fetching init block at address 0x0e2b6d80
+Nov 05 09:43:18.579 PA-8E(3): rx_ring = 0x0e2b6de0 (64), tx_ring = 0x0e2b7220 (128)
+Nov 05 09:43:18.579 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.579 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfbc: bus=6,device=6,function=0,reg=0x00
+Nov 05 09:43:18.579 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfc0: bus=6,device=6,function=0,reg=0x00
+Nov 05 09:43:18.579 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfbc: bus=6,device=6,function=0,reg=0x00
+Nov 05 09:43:18.579 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfc0: bus=6,device=6,function=0,reg=0x00
+Nov 05 09:43:18.579 CPU0: PCI: write request (data=0x490c0000) for device 'PA-8E(3)' at pc=0x601ede78: bus=6,device=6,function=0,reg=0x14
+Nov 05 09:43:18.579 PA-8E(3): registers are mapped at 0x490c0000
+Nov 05 09:43:18.579 CPU0: PCI: write request (data=0x490c0000) for device 'PA-8E(3)' at pc=0x601ede84: bus=6,device=6,function=0,reg=0x14
+Nov 05 09:43:18.579 PA-8E(3): registers are mapped at 0x490c0000
+Nov 05 09:43:18.579 CPU0: PCI: write request (data=0x00000006) for device 'PA-8E(3)' at pc=0x601ede78: bus=6,device=6,function=0,reg=0x04
+Nov 05 09:43:18.579 CPU0: PCI: write request (data=0x00000006) for device 'PA-8E(3)' at pc=0x601ede84: bus=6,device=6,function=0,reg=0x04
+Nov 05 09:43:18.579 CPU0: PCI: write request (data=0x0000ff00) for device 'PA-8E(3)' at pc=0x601ede78: bus=6,device=6,function=0,reg=0x0c
+Nov 05 09:43:18.579 CPU0: PCI: write request (data=0x0000ff00) for device 'PA-8E(3)' at pc=0x601ede84: bus=6,device=6,function=0,reg=0x0c
+Nov 05 09:43:18.579 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfbc: bus=6,device=6,function=0,reg=0x00
+Nov 05 09:43:18.579 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfc0: bus=6,device=6,function=0,reg=0x00
+Nov 05 09:43:18.581 PA-8E(3): fetching init block at address 0x0e2caaa0
+Nov 05 09:43:18.581 PA-8E(3): rx_ring = 0x0e2cab00 (64), tx_ring = 0x0e2caf40 (128)
+Nov 05 09:43:18.581 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.581 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfbc: bus=6,device=7,function=0,reg=0x00
+Nov 05 09:43:18.581 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfc0: bus=6,device=7,function=0,reg=0x00
+Nov 05 09:43:18.581 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfbc: bus=6,device=7,function=0,reg=0x00
+Nov 05 09:43:18.581 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfc0: bus=6,device=7,function=0,reg=0x00
+Nov 05 09:43:18.581 CPU0: PCI: write request (data=0x490e0000) for device 'PA-8E(3)' at pc=0x601ede78: bus=6,device=7,function=0,reg=0x14
+Nov 05 09:43:18.581 PA-8E(3): registers are mapped at 0x490e0000
+Nov 05 09:43:18.581 CPU0: PCI: write request (data=0x490e0000) for device 'PA-8E(3)' at pc=0x601ede84: bus=6,device=7,function=0,reg=0x14
+Nov 05 09:43:18.581 PA-8E(3): registers are mapped at 0x490e0000
+Nov 05 09:43:18.581 CPU0: PCI: write request (data=0x00000006) for device 'PA-8E(3)' at pc=0x601ede78: bus=6,device=7,function=0,reg=0x04
+Nov 05 09:43:18.581 CPU0: PCI: write request (data=0x00000006) for device 'PA-8E(3)' at pc=0x601ede84: bus=6,device=7,function=0,reg=0x04
+Nov 05 09:43:18.581 CPU0: PCI: write request (data=0x0000ff00) for device 'PA-8E(3)' at pc=0x601ede78: bus=6,device=7,function=0,reg=0x0c
+Nov 05 09:43:18.581 CPU0: PCI: write request (data=0x0000ff00) for device 'PA-8E(3)' at pc=0x601ede84: bus=6,device=7,function=0,reg=0x0c
+Nov 05 09:43:18.581 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfbc: bus=6,device=7,function=0,reg=0x00
+Nov 05 09:43:18.581 CPU0: PCI: read request for device 'PA-8E(3)' at pc=0x601edfc0: bus=6,device=7,function=0,reg=0x00
+Nov 05 09:43:18.582 PA-8E(3): fetching init block at address 0x0e2de7c0
+Nov 05 09:43:18.582 PA-8E(3): rx_ring = 0x0e2de820 (64), tx_ring = 0x0e2dec60 (128)
+Nov 05 09:43:18.582 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.584 CPU0: PCI: read request for device 'C7200-IO-FE(0)' at pc=0x601edfbc: bus=1,device=0,function=0,reg=0x08
+Nov 05 09:43:18.584 CPU0: PCI: read request for device 'C7200-IO-FE(0)' at pc=0x601edfc0: bus=1,device=0,function=0,reg=0x08
+Nov 05 09:43:18.585 PA-4E(2): fetching init block at address 0x0e204760
+Nov 05 09:43:18.585 PA-4E(2): rx_ring = 0x0e2047c0 (64), tx_ring = 0x0e204c00 (128)
+Nov 05 09:43:18.585 PA-4E(2): CSR0 = 0x0101
+Nov 05 09:43:18.585 PA-4E(2): fetching init block at address 0x0e218480
+Nov 05 09:43:18.585 PA-4E(2): rx_ring = 0x0e2184e0 (64), tx_ring = 0x0e218920 (128)
+Nov 05 09:43:18.585 PA-4E(2): CSR0 = 0x0101
+Nov 05 09:43:18.585 PA-4E(2): fetching init block at address 0x0e22c1a0
+Nov 05 09:43:18.585 PA-4E(2): rx_ring = 0x0e22c200 (64), tx_ring = 0x0e22c640 (128)
+Nov 05 09:43:18.585 PA-4E(2): CSR0 = 0x0101
+Nov 05 09:43:18.585 PA-4E(2): fetching init block at address 0x0e23fec0
+Nov 05 09:43:18.585 PA-4E(2): rx_ring = 0x0e23ff20 (64), tx_ring = 0x0e240360 (128)
+Nov 05 09:43:18.585 PA-4E(2): CSR0 = 0x0101
+Nov 05 09:43:18.586 PA-8E(3): fetching init block at address 0x0e253be0
+Nov 05 09:43:18.586 PA-8E(3): rx_ring = 0x0e253c40 (64), tx_ring = 0x0e254080 (128)
+Nov 05 09:43:18.586 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.586 PA-8E(3): fetching init block at address 0x0e267900
+Nov 05 09:43:18.586 PA-8E(3): rx_ring = 0x0e267960 (64), tx_ring = 0x0e267da0 (128)
+Nov 05 09:43:18.586 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.586 PA-8E(3): fetching init block at address 0x0e27b620
+Nov 05 09:43:18.586 PA-8E(3): rx_ring = 0x0e27b680 (64), tx_ring = 0x0e27bac0 (128)
+Nov 05 09:43:18.586 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.586 PA-8E(3): fetching init block at address 0x0e28f340
+Nov 05 09:43:18.586 PA-8E(3): rx_ring = 0x0e28f3a0 (64), tx_ring = 0x0e28f7e0 (128)
+Nov 05 09:43:18.586 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.586 PA-8E(3): fetching init block at address 0x0e2a3060
+Nov 05 09:43:18.586 PA-8E(3): rx_ring = 0x0e2a30c0 (64), tx_ring = 0x0e2a3500 (128)
+Nov 05 09:43:18.586 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.586 PA-8E(3): fetching init block at address 0x0e2b6d80
+Nov 05 09:43:18.586 PA-8E(3): rx_ring = 0x0e2b6de0 (64), tx_ring = 0x0e2b7220 (128)
+Nov 05 09:43:18.586 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.587 PA-8E(3): fetching init block at address 0x0e2caaa0
+Nov 05 09:43:18.587 PA-8E(3): rx_ring = 0x0e2cab00 (64), tx_ring = 0x0e2caf40 (128)
+Nov 05 09:43:18.587 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.587 PA-8E(3): fetching init block at address 0x0e2de7c0
+Nov 05 09:43:18.587 PA-8E(3): rx_ring = 0x0e2de820 (64), tx_ring = 0x0e2dec60 (128)
+Nov 05 09:43:18.587 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.646 CPU0: JIT: flushing data structures (compiled pages=942)
+Nov 05 09:43:18.672 CPU0: PCI: read request for device 'C7200-IO-FE(0)' at pc=0x601edfbc: bus=1,device=0,function=0,reg=0x08
+Nov 05 09:43:18.672 CPU0: PCI: read request for device 'C7200-IO-FE(0)' at pc=0x601edfc0: bus=1,device=0,function=0,reg=0x08
+Nov 05 09:43:18.675 PA-4E(2): fetching init block at address 0x0e204760
+Nov 05 09:43:18.675 PA-4E(2): rx_ring = 0x0e2047c0 (64), tx_ring = 0x0e204c00 (128)
+Nov 05 09:43:18.675 PA-4E(2): CSR0 = 0x0101
+Nov 05 09:43:18.675 PA-4E(2): fetching init block at address 0x0e218480
+Nov 05 09:43:18.675 PA-4E(2): rx_ring = 0x0e2184e0 (64), tx_ring = 0x0e218920 (128)
+Nov 05 09:43:18.675 PA-4E(2): CSR0 = 0x0101
+Nov 05 09:43:18.676 PA-4E(2): fetching init block at address 0x0e22c1a0
+Nov 05 09:43:18.676 PA-4E(2): rx_ring = 0x0e22c200 (64), tx_ring = 0x0e22c640 (128)
+Nov 05 09:43:18.676 PA-4E(2): CSR0 = 0x0101
+Nov 05 09:43:18.676 PA-4E(2): fetching init block at address 0x0e23fec0
+Nov 05 09:43:18.676 PA-4E(2): rx_ring = 0x0e23ff20 (64), tx_ring = 0x0e240360 (128)
+Nov 05 09:43:18.676 PA-4E(2): CSR0 = 0x0101
+Nov 05 09:43:18.677 PA-8E(3): fetching init block at address 0x0e253be0
+Nov 05 09:43:18.677 PA-8E(3): rx_ring = 0x0e253c40 (64), tx_ring = 0x0e254080 (128)
+Nov 05 09:43:18.677 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.678 PA-8E(3): fetching init block at address 0x0e267900
+Nov 05 09:43:18.678 PA-8E(3): rx_ring = 0x0e267960 (64), tx_ring = 0x0e267da0 (128)
+Nov 05 09:43:18.678 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.678 PA-8E(3): fetching init block at address 0x0e27b620
+Nov 05 09:43:18.678 PA-8E(3): rx_ring = 0x0e27b680 (64), tx_ring = 0x0e27bac0 (128)
+Nov 05 09:43:18.678 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.678 PA-8E(3): fetching init block at address 0x0e28f340
+Nov 05 09:43:18.678 PA-8E(3): rx_ring = 0x0e28f3a0 (64), tx_ring = 0x0e28f7e0 (128)
+Nov 05 09:43:18.678 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.679 PA-8E(3): fetching init block at address 0x0e2a3060
+Nov 05 09:43:18.679 PA-8E(3): rx_ring = 0x0e2a30c0 (64), tx_ring = 0x0e2a3500 (128)
+Nov 05 09:43:18.679 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.679 PA-8E(3): fetching init block at address 0x0e2b6d80
+Nov 05 09:43:18.679 PA-8E(3): rx_ring = 0x0e2b6de0 (64), tx_ring = 0x0e2b7220 (128)
+Nov 05 09:43:18.679 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.679 PA-8E(3): fetching init block at address 0x0e2caaa0
+Nov 05 09:43:18.679 PA-8E(3): rx_ring = 0x0e2cab00 (64), tx_ring = 0x0e2caf40 (128)
+Nov 05 09:43:18.679 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.680 PA-8E(3): fetching init block at address 0x0e2de7c0
+Nov 05 09:43:18.680 PA-8E(3): rx_ring = 0x0e2de820 (64), tx_ring = 0x0e2dec60 (128)
+Nov 05 09:43:18.680 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.864 CPU0: PCI: read request for device 'C7200-IO-FE(0)' at pc=0x601edfbc: bus=1,device=0,function=0,reg=0x08
+Nov 05 09:43:18.864 CPU0: PCI: read request for device 'C7200-IO-FE(0)' at pc=0x601edfc0: bus=1,device=0,function=0,reg=0x08
+Nov 05 09:43:18.865 PA-4E(2): fetching init block at address 0x0e204760
+Nov 05 09:43:18.865 PA-4E(2): rx_ring = 0x0e2047c0 (64), tx_ring = 0x0e204c00 (128)
+Nov 05 09:43:18.865 PA-4E(2): CSR0 = 0x0101
+Nov 05 09:43:18.865 PA-4E(2): fetching init block at address 0x0e218480
+Nov 05 09:43:18.865 PA-4E(2): rx_ring = 0x0e2184e0 (64), tx_ring = 0x0e218920 (128)
+Nov 05 09:43:18.865 PA-4E(2): CSR0 = 0x0101
+Nov 05 09:43:18.865 PA-4E(2): fetching init block at address 0x0e22c1a0
+Nov 05 09:43:18.865 PA-4E(2): rx_ring = 0x0e22c200 (64), tx_ring = 0x0e22c640 (128)
+Nov 05 09:43:18.865 PA-4E(2): CSR0 = 0x0101
+Nov 05 09:43:18.866 PA-4E(2): fetching init block at address 0x0e23fec0
+Nov 05 09:43:18.866 PA-4E(2): rx_ring = 0x0e23ff20 (64), tx_ring = 0x0e240360 (128)
+Nov 05 09:43:18.866 PA-4E(2): CSR0 = 0x0101
+Nov 05 09:43:18.866 PA-8E(3): fetching init block at address 0x0e253be0
+Nov 05 09:43:18.866 PA-8E(3): rx_ring = 0x0e253c40 (64), tx_ring = 0x0e254080 (128)
+Nov 05 09:43:18.866 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.866 PA-8E(3): fetching init block at address 0x0e267900
+Nov 05 09:43:18.866 PA-8E(3): rx_ring = 0x0e267960 (64), tx_ring = 0x0e267da0 (128)
+Nov 05 09:43:18.866 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.866 PA-8E(3): fetching init block at address 0x0e27b620
+Nov 05 09:43:18.866 PA-8E(3): rx_ring = 0x0e27b680 (64), tx_ring = 0x0e27bac0 (128)
+Nov 05 09:43:18.866 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.866 PA-8E(3): fetching init block at address 0x0e28f340
+Nov 05 09:43:18.866 PA-8E(3): rx_ring = 0x0e28f3a0 (64), tx_ring = 0x0e28f7e0 (128)
+Nov 05 09:43:18.866 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.867 PA-8E(3): fetching init block at address 0x0e2a3060
+Nov 05 09:43:18.867 PA-8E(3): rx_ring = 0x0e2a30c0 (64), tx_ring = 0x0e2a3500 (128)
+Nov 05 09:43:18.867 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.867 PA-8E(3): fetching init block at address 0x0e2b6d80
+Nov 05 09:43:18.867 PA-8E(3): rx_ring = 0x0e2b6de0 (64), tx_ring = 0x0e2b7220 (128)
+Nov 05 09:43:18.867 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.867 PA-8E(3): fetching init block at address 0x0e2caaa0
+Nov 05 09:43:18.867 PA-8E(3): rx_ring = 0x0e2cab00 (64), tx_ring = 0x0e2caf40 (128)
+Nov 05 09:43:18.867 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.868 PA-8E(3): fetching init block at address 0x0e2de7c0
+Nov 05 09:43:18.868 PA-8E(3): rx_ring = 0x0e2de820 (64), tx_ring = 0x0e2dec60 (128)
+Nov 05 09:43:18.868 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.872 CPU0: PCI: read request for device 'C7200-IO-FE(0)' at pc=0x601edfbc: bus=1,device=0,function=0,reg=0x08
+Nov 05 09:43:18.872 CPU0: PCI: read request for device 'C7200-IO-FE(0)' at pc=0x601edfc0: bus=1,device=0,function=0,reg=0x08
+Nov 05 09:43:18.873 PA-4E(2): fetching init block at address 0x0e204760
+Nov 05 09:43:18.873 PA-4E(2): rx_ring = 0x0e2047c0 (64), tx_ring = 0x0e204c00 (128)
+Nov 05 09:43:18.873 PA-4E(2): CSR0 = 0x0101
+Nov 05 09:43:18.873 PA-4E(2): fetching init block at address 0x0e218480
+Nov 05 09:43:18.873 PA-4E(2): rx_ring = 0x0e2184e0 (64), tx_ring = 0x0e218920 (128)
+Nov 05 09:43:18.873 PA-4E(2): CSR0 = 0x0101
+Nov 05 09:43:18.873 PA-4E(2): fetching init block at address 0x0e22c1a0
+Nov 05 09:43:18.873 PA-4E(2): rx_ring = 0x0e22c200 (64), tx_ring = 0x0e22c640 (128)
+Nov 05 09:43:18.873 PA-4E(2): CSR0 = 0x0101
+Nov 05 09:43:18.874 PA-4E(2): fetching init block at address 0x0e23fec0
+Nov 05 09:43:18.874 PA-4E(2): rx_ring = 0x0e23ff20 (64), tx_ring = 0x0e240360 (128)
+Nov 05 09:43:18.874 PA-4E(2): CSR0 = 0x0101
+Nov 05 09:43:18.874 PA-8E(3): fetching init block at address 0x0e253be0
+Nov 05 09:43:18.874 PA-8E(3): rx_ring = 0x0e253c40 (64), tx_ring = 0x0e254080 (128)
+Nov 05 09:43:18.874 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.874 PA-8E(3): fetching init block at address 0x0e267900
+Nov 05 09:43:18.874 PA-8E(3): rx_ring = 0x0e267960 (64), tx_ring = 0x0e267da0 (128)
+Nov 05 09:43:18.874 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.874 PA-8E(3): fetching init block at address 0x0e27b620
+Nov 05 09:43:18.874 PA-8E(3): rx_ring = 0x0e27b680 (64), tx_ring = 0x0e27bac0 (128)
+Nov 05 09:43:18.874 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.874 PA-8E(3): fetching init block at address 0x0e28f340
+Nov 05 09:43:18.874 PA-8E(3): rx_ring = 0x0e28f3a0 (64), tx_ring = 0x0e28f7e0 (128)
+Nov 05 09:43:18.874 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.875 PA-8E(3): fetching init block at address 0x0e2a3060
+Nov 05 09:43:18.875 PA-8E(3): rx_ring = 0x0e2a30c0 (64), tx_ring = 0x0e2a3500 (128)
+Nov 05 09:43:18.875 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.875 PA-8E(3): fetching init block at address 0x0e2b6d80
+Nov 05 09:43:18.875 PA-8E(3): rx_ring = 0x0e2b6de0 (64), tx_ring = 0x0e2b7220 (128)
+Nov 05 09:43:18.875 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.875 PA-8E(3): fetching init block at address 0x0e2caaa0
+Nov 05 09:43:18.875 PA-8E(3): rx_ring = 0x0e2cab00 (64), tx_ring = 0x0e2caf40 (128)
+Nov 05 09:43:18.875 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.875 PA-8E(3): fetching init block at address 0x0e2de7c0
+Nov 05 09:43:18.875 PA-8E(3): rx_ring = 0x0e2de820 (64), tx_ring = 0x0e2dec60 (128)
+Nov 05 09:43:18.875 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.878 CPU0: PCI: read request for device 'C7200-IO-FE(0)' at pc=0x601edfbc: bus=1,device=0,function=0,reg=0x08
+Nov 05 09:43:18.878 CPU0: PCI: read request for device 'C7200-IO-FE(0)' at pc=0x601edfc0: bus=1,device=0,function=0,reg=0x08
+Nov 05 09:43:18.878 PA-4E(2): fetching init block at address 0x0e204760
+Nov 05 09:43:18.878 PA-4E(2): rx_ring = 0x0e2047c0 (64), tx_ring = 0x0e204c00 (128)
+Nov 05 09:43:18.878 PA-4E(2): CSR0 = 0x0101
+Nov 05 09:43:18.879 PA-4E(2): fetching init block at address 0x0e218480
+Nov 05 09:43:18.879 PA-4E(2): rx_ring = 0x0e2184e0 (64), tx_ring = 0x0e218920 (128)
+Nov 05 09:43:18.879 PA-4E(2): CSR0 = 0x0101
+Nov 05 09:43:18.879 PA-4E(2): fetching init block at address 0x0e22c1a0
+Nov 05 09:43:18.879 PA-4E(2): rx_ring = 0x0e22c200 (64), tx_ring = 0x0e22c640 (128)
+Nov 05 09:43:18.879 PA-4E(2): CSR0 = 0x0101
+Nov 05 09:43:18.879 PA-4E(2): fetching init block at address 0x0e23fec0
+Nov 05 09:43:18.879 PA-4E(2): rx_ring = 0x0e23ff20 (64), tx_ring = 0x0e240360 (128)
+Nov 05 09:43:18.879 PA-4E(2): CSR0 = 0x0101
+Nov 05 09:43:18.879 PA-8E(3): fetching init block at address 0x0e253be0
+Nov 05 09:43:18.879 PA-8E(3): rx_ring = 0x0e253c40 (64), tx_ring = 0x0e254080 (128)
+Nov 05 09:43:18.879 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.879 PA-8E(3): fetching init block at address 0x0e267900
+Nov 05 09:43:18.879 PA-8E(3): rx_ring = 0x0e267960 (64), tx_ring = 0x0e267da0 (128)
+Nov 05 09:43:18.879 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.880 PA-8E(3): fetching init block at address 0x0e27b620
+Nov 05 09:43:18.880 PA-8E(3): rx_ring = 0x0e27b680 (64), tx_ring = 0x0e27bac0 (128)
+Nov 05 09:43:18.880 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.880 PA-8E(3): fetching init block at address 0x0e28f340
+Nov 05 09:43:18.880 PA-8E(3): rx_ring = 0x0e28f3a0 (64), tx_ring = 0x0e28f7e0 (128)
+Nov 05 09:43:18.880 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.880 PA-8E(3): fetching init block at address 0x0e2a3060
+Nov 05 09:43:18.880 PA-8E(3): rx_ring = 0x0e2a30c0 (64), tx_ring = 0x0e2a3500 (128)
+Nov 05 09:43:18.880 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.880 PA-8E(3): fetching init block at address 0x0e2b6d80
+Nov 05 09:43:18.880 PA-8E(3): rx_ring = 0x0e2b6de0 (64), tx_ring = 0x0e2b7220 (128)
+Nov 05 09:43:18.880 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.880 PA-8E(3): fetching init block at address 0x0e2caaa0
+Nov 05 09:43:18.880 PA-8E(3): rx_ring = 0x0e2cab00 (64), tx_ring = 0x0e2caf40 (128)
+Nov 05 09:43:18.880 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.881 PA-8E(3): fetching init block at address 0x0e2de7c0
+Nov 05 09:43:18.881 PA-8E(3): rx_ring = 0x0e2de820 (64), tx_ring = 0x0e2dec60 (128)
+Nov 05 09:43:18.881 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:18.888 CPU0: JIT: partial JIT flush (count=741)
+Nov 05 09:43:19.034 CPU0: JIT: flushing data structures (compiled pages=960)
+Nov 05 09:43:23.338 CPU0: JIT: partial JIT flush (count=783)
+Nov 05 09:43:23.589 CPU0: JIT: flushing data structures (compiled pages=985)
+Nov 05 09:43:23.972 CPU0: JIT: partial JIT flush (count=811)
+Nov 05 09:43:24.021 ROM: unhandled syscall 0x0000001a at pc=0x606dcd28 (a1=0x66cd1410,a2=0x66120000,a3=0x0153a830)
+Nov 05 09:43:24.021 ROM: unhandled syscall 0x00000009 at pc=0x606dcd28 (a1=0x00000000,a2=0x66120000,a3=0x0153a830)
+Nov 05 09:43:24.107 CPU0: JIT: flushing data structures (compiled pages=975)
+Nov 05 09:43:24.271 CPU0: PCI: read request for device 'C7200-IO-FE(0)' at pc=0x601edfbc: bus=1,device=0,function=0,reg=0x08
+Nov 05 09:43:24.271 CPU0: PCI: read request for device 'C7200-IO-FE(0)' at pc=0x601edfc0: bus=1,device=0,function=0,reg=0x08
+Nov 05 09:43:24.277 CPU0: JIT: partial JIT flush (count=728)
+Nov 05 09:43:24.327 PA-8T(1): channel 0 disabled
+Nov 05 09:43:24.333 PA-8T(1): channel 1 disabled
+Nov 05 09:43:24.335 PA-8T(1): channel 2 disabled
+Nov 05 09:43:24.335 PA-8T(1): channel 3 disabled
+Nov 05 09:43:24.337 PA-8T(1): channel 0 disabled
+Nov 05 09:43:24.338 PA-8T(1): channel 1 disabled
+Nov 05 09:43:24.340 PA-8T(1): channel 2 disabled
+Nov 05 09:43:24.341 PA-8T(1): channel 3 disabled
+Nov 05 09:43:24.368 PA-4E(2): fetching init block at address 0x0e204760
+Nov 05 09:43:24.368 PA-4E(2): rx_ring = 0x0e2047c0 (64), tx_ring = 0x0e204c00 (128)
+Nov 05 09:43:24.368 PA-4E(2): CSR0 = 0x0101
+Nov 05 09:43:24.374 PA-4E(2): fetching init block at address 0x0e218480
+Nov 05 09:43:24.374 PA-4E(2): rx_ring = 0x0e2184e0 (64), tx_ring = 0x0e218920 (128)
+Nov 05 09:43:24.374 PA-4E(2): CSR0 = 0x0101
+Nov 05 09:43:24.376 PA-4E(2): fetching init block at address 0x0e22c1a0
+Nov 05 09:43:24.376 PA-4E(2): rx_ring = 0x0e22c200 (64), tx_ring = 0x0e22c640 (128)
+Nov 05 09:43:24.376 PA-4E(2): CSR0 = 0x0101
+Nov 05 09:43:24.378 PA-4E(2): fetching init block at address 0x0e23fec0
+Nov 05 09:43:24.378 PA-4E(2): rx_ring = 0x0e23ff20 (64), tx_ring = 0x0e240360 (128)
+Nov 05 09:43:24.378 PA-4E(2): CSR0 = 0x0101
+Nov 05 09:43:24.379 PA-8E(3): fetching init block at address 0x0e253be0
+Nov 05 09:43:24.379 PA-8E(3): rx_ring = 0x0e253c40 (64), tx_ring = 0x0e254080 (128)
+Nov 05 09:43:24.379 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:24.381 PA-8E(3): fetching init block at address 0x0e267900
+Nov 05 09:43:24.381 PA-8E(3): rx_ring = 0x0e267960 (64), tx_ring = 0x0e267da0 (128)
+Nov 05 09:43:24.381 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:24.382 PA-8E(3): fetching init block at address 0x0e27b620
+Nov 05 09:43:24.382 PA-8E(3): rx_ring = 0x0e27b680 (64), tx_ring = 0x0e27bac0 (128)
+Nov 05 09:43:24.382 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:24.384 PA-8E(3): fetching init block at address 0x0e28f340
+Nov 05 09:43:24.384 PA-8E(3): rx_ring = 0x0e28f3a0 (64), tx_ring = 0x0e28f7e0 (128)
+Nov 05 09:43:24.384 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:24.405 PA-8E(3): fetching init block at address 0x0e28f340
+Nov 05 09:43:24.405 PA-8E(3): rx_ring = 0x0e28f3a0 (64), tx_ring = 0x0e28f7e0 (128)
+Nov 05 09:43:24.405 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:24.405 PA-8E(3): fetching init block at address 0x0e28f340
+Nov 05 09:43:24.405 PA-8E(3): rx_ring = 0x0e28f3a0 (64), tx_ring = 0x0e28f7e0 (128)
+Nov 05 09:43:24.405 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:24.410 CPU0: JIT: flushing data structures (compiled pages=997)
+Nov 05 09:43:24.478 PA-8E(3): fetching init block at address 0x0e28f340
+Nov 05 09:43:24.478 PA-8E(3): rx_ring = 0x0e28f3a0 (64), tx_ring = 0x0e28f7e0 (128)
+Nov 05 09:43:24.478 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:24.479 PA-8E(3): fetching init block at address 0x0e28f340
+Nov 05 09:43:24.479 PA-8E(3): rx_ring = 0x0e28f3a0 (64), tx_ring = 0x0e28f7e0 (128)
+Nov 05 09:43:24.479 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:24.492 PA-8E(3): fetching init block at address 0x0e28f340
+Nov 05 09:43:24.492 PA-8E(3): rx_ring = 0x0e28f3a0 (64), tx_ring = 0x0e28f7e0 (128)
+Nov 05 09:43:24.492 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:24.492 PA-8E(3): fetching init block at address 0x0e28f340
+Nov 05 09:43:24.492 PA-8E(3): rx_ring = 0x0e28f3a0 (64), tx_ring = 0x0e28f7e0 (128)
+Nov 05 09:43:24.492 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:24.498 PA-8E(3): fetching init block at address 0x0e2a3060
+Nov 05 09:43:24.498 PA-8E(3): rx_ring = 0x0e2a30c0 (64), tx_ring = 0x0e2a3500 (128)
+Nov 05 09:43:24.498 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:24.522 PA-8E(3): fetching init block at address 0x0e2b6d80
+Nov 05 09:43:24.523 PA-8E(3): rx_ring = 0x0e2b6de0 (64), tx_ring = 0x0e2b7220 (128)
+Nov 05 09:43:24.523 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:24.527 PA-8E(3): fetching init block at address 0x0e2caaa0
+Nov 05 09:43:24.527 PA-8E(3): rx_ring = 0x0e2cab00 (64), tx_ring = 0x0e2caf40 (128)
+Nov 05 09:43:24.527 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:24.531 PA-8E(3): fetching init block at address 0x0e2de7c0
+Nov 05 09:43:24.531 PA-8E(3): rx_ring = 0x0e2de820 (64), tx_ring = 0x0e2dec60 (128)
+Nov 05 09:43:24.531 PA-8E(3): CSR0 = 0x0101
+Nov 05 09:43:24.603 CPU0: JIT: partial JIT flush (count=749)
+Nov 05 09:43:24.848 ROM: trying to set bootvar 'BSI=0'
+Nov 05 09:43:24.849 ROM: trying to read bootvar 'RET_2_RCALTS'
+Nov 05 09:43:24.850 ROM: trying to set bootvar 'RET_2_RCALTS='
+Nov 05 09:43:24.851 CPU0: JIT: flushing data structures (compiled pages=1046)
+Nov 05 09:43:24.882 ROM: trying to read bootvar 'RANDOM_NUM'
+Nov 05 09:44:54.047 CPU0: JIT: partial JIT flush (count=603)
+Nov 05 09:45:48.674 ROM: trying to set bootvar 'RANDOM_NUM=351475060'
